@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function Timeline() {
   const timeline = [
     {
@@ -45,7 +47,7 @@ function Timeline() {
           ))}
         </div>
         <button type="button" className="mt-8 rounded-full bg-indigo-600 px-4 py-2.5 text-md font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
-          Learn more
+          <Link href="/history">Learn more</Link>
         </button>
       </div>
     </>
