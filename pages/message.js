@@ -8,6 +8,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { CheckCircleIcon, InformationCircleIcon } from "@heroicons/react/20/solid";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
+import Vision from "@/components/Vision";
 
 // const inter = Inter({ subsets: ["latin"] });
 
@@ -47,12 +48,12 @@ export default function Message() {
             </div>
           </div>
           {/* Content section */}
-          <div className="bg-white px-6 pt-32 pb-16 lg:px-8">
+          <div className="bg-white px-6 mt-40 pb-16 lg:px-8">
             <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
               {/* <p className="text-base text-center font-semibold leading-7 text-indigo-600">Founder's</p> */}
-              <div className="bg-white px-6 py-24 sm:py-32 lg:px-8">
+              <div className="bg-white px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl text-center">
-                  <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Messages</h2>
+                  <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Messages</h1>
                   {/* <p className="mt-6 text-lg leading-8 text-gray-600">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p> */}
                 </div>
               </div>
@@ -120,34 +121,7 @@ export default function Message() {
             <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2832&q=80" alt="" className="aspect-[5/2] w-full object-cover xl:rounded-3xl" />
           </div>
           {/* Vision section */}
-          <div className="mt-32 overflow-hidden sm:mt-40">
-            <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
-              <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
-                <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
-                  <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our Vision</h2>
-                  <p className="mt-6 text-lg leading-8 text-gray-600">The Wider Fertile Crescent area is restored to full ecological health with all the native constituent species and people living in harmony and balance with the land. We envision a transformation from barren, brown landscapes to lush green ecosystems with rich fertile soil and abundant water.</p>
-                  <p className="mt-6 text-lg leading-8 text-gray-600">Based on a deep personal connection with and care for the land and formed by mastery of arts and crafts, bioregional networks of ecovillages and communities are self sufficient with regenerative agriculture, sustainable energy, transport, and circular economies. </p>
-                  <p className="mt-6 text-lg leading-8 text-gray-600">We collaborate with the larger planetary networks of organisations and civil societies while soulful medicine, education, and culture feeds various needs within the network. </p>
-                </div>
-                <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
-                  <div className="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
-                    <img src="https://images.unsplash.com/photo-1670272502246-768d249768ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1152&q=80" alt="" className="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover" />
-                  </div>
-                  <div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
-                    <div className="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
-                      <img src="https://images.unsplash.com/photo-1605656816944-971cd5c1407f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80" alt="" className="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover" />
-                    </div>
-                    <div className="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
-                      <img src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1152&h=842&q=80" alt="" className="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover" />
-                    </div>
-                    <div className="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
-                      <img src="https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80" alt="" className="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <Vision />
         </main>
 
         {/* Footer */}

@@ -47,16 +47,16 @@ export default function Mission() {
             </div>
           </div>
           {/* Content section */}
-          <div className="bg-white px-6 pt-32 pb-16 lg:px-8">
+          <div className="bg-white px-6 mt-40 pb-16 lg:px-8">
             <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
               {/* <p className="text-base text-center font-semibold leading-7 text-indigo-600">Founder's</p> */}
-              <div className="bg-white px-6 py-24 sm:py-32 lg:px-8">
+              <div className="bg-white px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl text-center">
-                  <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Mission</h2>
+                  <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Mission</h1>
                   {/* <p className="mt-6 text-lg leading-8 text-gray-600">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p> */}
                 </div>
               </div>
-              <figure className="mb-16 flex justify-center">
+              <figure className="mt-10 mb-16 flex justify-center">
                 <img className="sm:h-4/6 sm:w-4/6 rounded-xl bg-gray-50 object-cover" src="/three_findhorn_principles.jpg" alt="three_findhorn_principles" />
                 {/* <figcaption className="mt-4 flex gap-x-2 text-sm leading-6 text-gray-500">
                   <InformationCircleIcon className="mt-0.5 h-5 w-5 flex-none text-gray-300" aria-hidden="true" />

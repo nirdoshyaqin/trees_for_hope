@@ -104,13 +104,12 @@ export default function Message() {
               />
             </div>
           </div>
-
           {/* Vision section */}
           <div className="mt-32 mb-32 overflow-hidden sm:mt-40">
             <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
               <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
                 <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
-                  <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our History</h2>
+                  <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Our History</h1>
                   <p className="mt-6 text-lg leading-8 text-gray-600">The Wider Fertile Crescent area is restored to full ecological health with all the native constituent species and people living in harmony and balance with the land. We envision a transformation from barren, brown landscapes to lush green ecosystems with rich fertile soil and abundant water.</p>
                   <p className="mt-6 text-lg leading-8 text-gray-600">Based on a deep personal connection with and care for the land and formed by mastery of arts and crafts, bioregional networks of ecovillages and communities are self sufficient with regenerative agriculture, sustainable energy, transport, and circular economies. </p>
                   <p className="mt-6 text-lg leading-8 text-gray-600">We collaborate with the larger planetary networks of organisations and civil societies while soulful medicine, education, and culture feeds various needs within the network. </p>
