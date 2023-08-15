@@ -13,7 +13,7 @@ import Timeline from "@/components/Timeline";
 import Mission from "@/components/Mission";
 import Vision from "@/components/Vision";
 import LogoCloud from "@/components/LogoCloud";
-import Team from "@/components/team";
+import Team from "@/components/Team";
 
 export default function Index({ preview, allPosts }) {
   const heroPost = allPosts[0];
