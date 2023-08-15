@@ -1,0 +1,18 @@
+.person-bio p {
+  margin-top:16px;
+}
+
+
+/* ブログ記事詳細ページ */
+.max-w-prose h3 {
+  font-weight: 600;
+  font-size: 1.25em;
+  margin-top: 1.6em;
+  margin-bottom: 0.6em;
+  line-height: 1.6;
+}
+
+/* 執筆者アバター画像の調整（ proseエリアの調整）*/
+.prose .avatar {
+  margin: 0px !important;
+}
