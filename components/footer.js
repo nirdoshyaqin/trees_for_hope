@@ -5,7 +5,7 @@ const footerNavigation = {
     { name: "Message", href: "/message" },
     { name: "History", href: "/history" },
     { name: "Mission", href: "/mission" },
-    { name: "Vision", href: "/vision" },
+    { name: "Project", href: "/project" },
     { name: "Team", href: "/team" },
     { name: "Contact", href: "/contact" }
   ],
