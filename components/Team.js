@@ -9,6 +9,16 @@ function Team() {
       linkedinUrl: "#"
     },
     {
+      name: "Alan Watson Featherstone",
+      role: "Trustee",
+      imageUrl: "/alan.jpg",
+      bio: "Alan Watson Featherstone is an ecologist, nature photographer and inspirational public speaker. In 1986 he founded the award-winning Scottish conservation charity, Trees for Life, and was its executive director for almost 30 years. During that time it became the leading organisation working to restore the Caledonian Forest in Scotland and took on ownership of the 10,000 acre Dundreggan Estate in Glenmoriston as its flagship project for native woodland recovery.",
+      twitterUrl: "#",
+      linkedinUrl: "#",
+      youtubeUrl: "https://www.youtube.com/watch?v=nAGHUkby2Is",
+      homePageUrl: "http://alanwatsonfeatherstone.com/blog/"
+    },
+    {
       name: "Minni Jain",
       role: "Trustee / Director",
       imageUrl: "/minni.jpg",
@@ -42,7 +52,7 @@ function Team() {
         <div className="mx-auto grid max-w-7xl grid-cols-1 gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-5">
           <div className="max-w-2xl xl:col-span-2">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">About the team</h2>
-            <p className="mt-6 text-lg leading-8 text-gray-600">We’re a dynamic group of individuals who are passionate about what we do and dedicated to delivering the best results for our clients.</p>
+            <p className="mt-6 text-lg leading-8 text-gray-600">We are a diverse team, coming from backgrounds of rewilding, holistic science, water and communities, psychology, and social sciences. The combination of our expertise and passion to serve the purposes and missions of Trees for Hope makes a potent group to deliver our work.</p>
           </div>
           <ul role="list" className="-mt-12 space-y-12 divide-y divide-gray-200 xl:col-span-3">
             {people.map(person => (

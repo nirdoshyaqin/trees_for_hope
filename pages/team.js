@@ -23,6 +23,16 @@ const people = [
     homePageUrl: "http://www.pupakhaghighi.net/"
   },
   {
+    name: "Alan Watson Featherstone",
+    role: "Trustee",
+    imageUrl: "/alan.jpg",
+    bio: "<p>Alan Watson Featherstone is an ecologist, nature photographer and inspirational public speaker. In 1986 he founded the award-winning Scottish conservation charity, Trees for Life, and was its executive director for almost 30 years. During that time it became the leading organisation working to restore the Caledonian Forest in Scotland and took on ownership of the 10,000 acre Dundreggan Estate in Glenmoriston as its flagship project for native woodland recovery. His TedX talk about this work is at: 👇 youtube icon below.</p> <p>Through his work with Trees for Life, Alan helped to provide the inspiration for other ecological restoration projects in the Scottish Borders, on Dartmoor in England and for the creation of the Yendegaia National Park in Tierra del Fuego, Chile. He also founded the Restoring the Earth project, to promote the restoration of the planet’s degraded ecosystems as the most important task for humanity in the 21st century. </p> <p>Alan regularly contributes articles to various professional and popular publications, and writes a blog at: alanwatsonfeatherstone.com/blog/. His photographs have appeared in publications such as Time magazine and Encyclopedia Britannica, and he is currently working on a high quality photographic book project about the endangered Araucaria (monkey puzzle tree) forests of Chile.</p><p>Alan has given lectures at events and conferences in more than 20 countries worldwide, and has received a number of awards for his work, including the Schumacher Award in 2001, the Spirit of Scotland Environment Award in 2012 and the RSPB Nature of Scotland Outstanding Contribution Award in 2013, whilst Trees for Life was declared the UK Conservation Project of the Year in 1991.</p><p>Alan has been vegan for over 40 years and lives with his wife, Pupak, in an energy-efficient ecologically designed house in the Findhorn Community and Ecovillage in northeast Scotland. He is a trustee of three locally-based charities: the Findhorn Hinterland Trust, Trees for Hope and ‘Wild things! environmental education in action’.</p>",
+    twitterUrl: "#",
+    linkedinUrl: "#",
+    youtubeUrl: "https://www.youtube.com/watch?v=nAGHUkby2Is",
+    homePageUrl: "http://alanwatsonfeatherstone.com/blog/"
+  },
+  {
     name: "Minni Jain",
     role: "Trustee / Director",
     imageUrl: "/minni.jpg",
@@ -51,16 +61,6 @@ const people = [
     linkedinUrl: "#",
     youtubeUrl: "#",
     homePageUrl: "https://yurahu.org/"
-  },
-  {
-    name: "Alan Watson Featherstone",
-    role: "Trustee",
-    imageUrl: "/alan.jpg",
-    bio: "<p>Alan Watson Featherstone is an ecologist, nature photographer and inspirational public speaker. In 1986 he founded the award-winning Scottish conservation charity, Trees for Life, and was its executive director for almost 30 years. During that time it became the leading organisation working to restore the Caledonian Forest in Scotland and took on ownership of the 10,000 acre Dundreggan Estate in Glenmoriston as its flagship project for native woodland recovery. His TedX talk about this work is at: 👇 youtube icon below.</p> <p>Through his work with Trees for Life, Alan helped to provide the inspiration for other ecological restoration projects in the Scottish Borders, on Dartmoor in England and for the creation of the Yendegaia National Park in Tierra del Fuego, Chile. He also founded the Restoring the Earth project, to promote the restoration of the planet’s degraded ecosystems as the most important task for humanity in the 21st century. </p> <p>Alan regularly contributes articles to various professional and popular publications, and writes a blog at: alanwatsonfeatherstone.com/blog/. His photographs have appeared in publications such as Time magazine and Encyclopedia Britannica, and he is currently working on a high quality photographic book project about the endangered Araucaria (monkey puzzle tree) forests of Chile.</p><p>Alan has given lectures at events and conferences in more than 20 countries worldwide, and has received a number of awards for his work, including the Schumacher Award in 2001, the Spirit of Scotland Environment Award in 2012 and the RSPB Nature of Scotland Outstanding Contribution Award in 2013, whilst Trees for Life was declared the UK Conservation Project of the Year in 1991.</p><p>Alan has been vegan for over 40 years and lives with his wife, Pupak, in an energy-efficient ecologically designed house in the Findhorn Community and Ecovillage in northeast Scotland. He is a trustee of three locally-based charities: the Findhorn Hinterland Trust, Trees for Hope and ‘Wild things! environmental education in action’.</p>",
-    twitterUrl: "#",
-    linkedinUrl: "#",
-    youtubeUrl: "https://www.youtube.com/watch?v=nAGHUkby2Is",
-    homePageUrl: "http://alanwatsonfeatherstone.com/blog/"
   }
 
   // More people...

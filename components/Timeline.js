@@ -3,16 +3,10 @@ import Link from "next/link";
 function Timeline() {
   const timeline = [
     {
-      name: "investigative journey to Iran",
-      description: "investigative journey to Iran, Pupak and Alan Watson Featherstone to seek out allies in the field of earth restoration.  Made numerous connections with environmentally concerned entities",
-      date: "April 2005",
-      dateTime: "2005-04"
-    },
-    {
-      name: "Trees for Hope is registered as a Scottish Charity",
-      description: "September 2016 Trees for Hope is registered as a Scottish Charity, our legal body is created",
-      date: "September 2016",
-      dateTime: "2016-09"
+      name: "the first Ecovillage Design Education course in Iran",
+      description: "November 2017 we taught the first Ecovillage Design Education course in Iran",
+      date: "November 2017",
+      dateTime: "2017-11"
     },
     {
       name: "Online Earth Healing Webinars",
@@ -21,10 +15,16 @@ function Timeline() {
       dateTime: "2016-10"
     },
     {
-      name: "the first Ecovillage Design Education course in Iran",
-      description: "November 2017 we taught the first Ecovillage Design Education course in Iran",
-      date: "November 2017",
-      dateTime: "2017-11"
+      name: "Trees for Hope is registered as a Scottish Charity",
+      description: "September 2016 Trees for Hope is registered as a Scottish Charity, our legal body is created",
+      date: "September 2016",
+      dateTime: "2016-09"
+    },
+    {
+      name: "investigative journey to Iran",
+      description: "investigative journey to Iran, Pupak and Alan Watson Featherstone to seek out allies in the field of earth restoration.  Made numerous connections with environmentally concerned entities",
+      date: "April 2005",
+      dateTime: "2005-04"
     }
   ];
 

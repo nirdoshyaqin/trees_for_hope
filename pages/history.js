@@ -13,46 +13,10 @@ import Footer from "@/components/footer";
 
 const timeline = [
   {
-    name: "investigative journey to Iran",
-    description: "investigative journey to Iran, Pupak and Alan Watson Featherstone to seek out allies in the field of earth restoration.  Made numerous connections with environmentally concerned entities",
-    date: "April 2005",
-    dateTime: "2005-04"
-  },
-  {
-    name: "Trees for Hope is registered as a Scottish Charity",
-    description: "September 2016 Trees for Hope is registered as a Scottish Charity, our legal body is created",
-    date: "September 2016",
-    dateTime: "2016-09"
-  },
-  {
-    name: "Online Earth Healing Webinars",
-    description: "September and October 2016 we held a series of online Earth Healing Webinars to connect with various active environmentally concerned people and organisations in the Fertile Crescent and Europe.",
-    date: "October 2016",
-    dateTime: "2016-10"
-  },
-  {
-    name: "the first Ecovillage Design Education course in Iran",
-    description: "November 2017 we taught the first Ecovillage Design Education course in Iran",
-    date: "November 2017",
-    dateTime: "2017-11"
-  },
-  {
-    name: "Ecovillage Design Education was taught in Auroville",
-    description: "March 2019 one month long course, Ecovillage Design Education was taught in Auroville, Tamil Nadu, India.",
-    date: "March 2019",
-    dateTime: "2019-03"
-  },
-  {
-    name: "Soil Alchemy Workshops taught in Central Iran",
-    description: "November 2019 Soil Alchemy Workshops were taught in Central Iran",
-    date: "November 2019",
-    dateTime: "2019-11"
-  },
-  {
-    name: "Soil, Soul, Social Alchemy workshops held online",
-    description: "2020 - 2021 Soil, Soul, Social Alchemy workshops were held online",
-    date: "2020-2021",
-    dateTime: "2020-2021"
+    name: "online event to raise funds and awareness about Trees for Hope.",
+    description: "November 2022, online event to raise funds and awareness about Trees for Hope.",
+    date: "November 2022",
+    dateTime: "2022-11"
   },
   {
     name: "beginning investigation on rewilding the Atlantic Rainforest in the West Coast of Scotland",
@@ -61,10 +25,46 @@ const timeline = [
     dateTime: "2021-05"
   },
   {
-    name: "online event to raise funds and awareness about Trees for Hope.",
-    description: "November 2022, online event to raise funds and awareness about Trees for Hope.",
-    date: "November 2022",
-    dateTime: "2022-11"
+    name: "Soil, Soul, Social Alchemy workshops held online",
+    description: "2020 - 2021 Soil, Soul, Social Alchemy workshops were held online",
+    date: "2020-2021",
+    dateTime: "2020-2021"
+  },
+  {
+    name: "Soil Alchemy Workshops taught in Central Iran",
+    description: "November 2019 Soil Alchemy Workshops were taught in Central Iran",
+    date: "November 2019",
+    dateTime: "2019-11"
+  },
+  {
+    name: "Ecovillage Design Education was taught in Auroville",
+    description: "March 2019 one month long course, Ecovillage Design Education was taught in Auroville, Tamil Nadu, India.",
+    date: "March 2019",
+    dateTime: "2019-03"
+  },
+  {
+    name: "the first Ecovillage Design Education course in Iran",
+    description: "November 2017 we taught the first Ecovillage Design Education course in Iran",
+    date: "November 2017",
+    dateTime: "2017-11"
+  },
+  {
+    name: "Online Earth Healing Webinars",
+    description: "September and October 2016 we held a series of online Earth Healing Webinars to connect with various active environmentally concerned people and organisations in the Fertile Crescent and Europe.",
+    date: "October 2016",
+    dateTime: "2016-10"
+  },
+  {
+    name: "Trees for Hope is registered as a Scottish Charity",
+    description: "September 2016 Trees for Hope is registered as a Scottish Charity, our legal body is created",
+    date: "September 2016",
+    dateTime: "2016-09"
+  },
+  {
+    name: "investigative journey to Iran",
+    description: "investigative journey to Iran, Pupak and Alan Watson Featherstone to seek out allies in the field of earth restoration.  Made numerous connections with environmentally concerned entities",
+    date: "April 2005",
+    dateTime: "2005-04"
   }
 ];
 

@@ -1,8 +1,8 @@
 function Mission() {
   const stats = [
-    { label: "Rewilding with oneself and nature", value: "Rewild" },
-    { label: "Reconnecting with oneself and nature", value: "Reconnect" },
-    { label: "Rejuvinating ourself and planet earth", value: "Rejuvinate" }
+    { label: "Rewilding with oneself and nature", value: "Rewilding" },
+    { label: "being one with Nature", value: "Reconnect" },
+    { label: "Activating the Potentials", value: "Revive" }
   ];
   return (
     <>
