@@ -57,7 +57,7 @@ export default function Mission() {
                 </div>
               </div>
               <figure className="mt-10 mb-16 flex justify-center">
-                <img className="sm:h-4/6 sm:w-4/6 rounded-xl bg-gray-50 object-cover" src="/top/top_vision_04.jpg" alt="three_findhorn_principles" />
+                <img className="rounded-xl bg-gray-50 object-cover" src="/top/top_vision_02.jpg" alt="three_findhorn_principles" />
                 {/* <figcaption className="mt-4 flex gap-x-2 text-sm leading-6 text-gray-500">
                   <InformationCircleIcon className="mt-0.5 h-5 w-5 flex-none text-gray-300" aria-hidden="true" />
                   Faucibus commodo massa rhoncus, volutpat.
@@ -73,7 +73,7 @@ export default function Mission() {
           </div>{" "}
           {/* Image section */}
           <div className="mt-16 sm:mt-20 xl:mx-auto xl:max-w-7xl xl:px-8">
-            <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2832&q=80" alt="" className="aspect-[5/2] w-full object-cover xl:rounded-3xl" />
+            <img src="top/top_vision_04.jpg" />
           </div>
         </main>
 
