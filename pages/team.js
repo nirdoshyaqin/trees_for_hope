@@ -8,6 +8,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { CheckCircleIcon, InformationCircleIcon } from "@heroicons/react/20/solid";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
+import Vision from "@/components/Vision";
 
 // const inter = Inter({ subsets: ["latin"] });
 
@@ -143,7 +144,7 @@ export default function Team() {
                         <li>
                           <a href={person.youtubeUrl} className="text-gray-400 hover:text-gray-500">
                             <span className="sr-only">YouTube</span>
-                            <svg className="h-5 w-5" enable-background="new 0 0 512 512" id="Layer_1" viewBox="0 0 512 512" fill="currentColor">
+                            <svg className="h-5 w-5" enableBackground="new 0 0 512 512" id="Layer_1" viewBox="0 0 512 512" fill="currentColor">
                               <g>
                                 <path d="M256.4,74.2c22.7,0,45.3-0.4,68,0.1c28.8,0.6,57.6,1.7,86.3,3c11.9,0.6,24,0.9,35.8,3.2   c28.1,5.4,44.8,22.7,52.5,50c4.1,14.5,5.6,29.4,6.9,44.3c3.5,40.1,2.8,80.2,1.8,120.3c-0.6,23.7-1.6,47.6-7.6,70.8   c-2.5,9.5-5.4,19-10.9,27.3c-10,15.1-24.4,23.7-42,26.9c-15.1,2.8-30.4,3.1-45.7,3.8c-28.3,1.3-56.6,1.9-84.9,2.6   c-33.5,0.9-67,0.7-100.4,0.4c-27.1-0.3-54.3-0.9-81.4-2c-22.9-0.9-45.9-1.3-68.5-5.7c-12.5-2.4-23.6-7.6-33.2-16.2   c-9-8.2-13.6-18.8-17-30c-7.3-24-7.8-48.8-9.3-73.6c-1.7-29-1.2-58-0.5-86.9c0.6-24.4,1.7-48.9,6.8-72.9c3-14.2,7.1-28.3,17.4-39.2   c12.7-13.4,28.9-19.8,47.2-21.1c21.9-1.5,43.9-2.5,65.8-3.4C181.1,74.3,218.8,73.8,256.4,74.2z M339.5,245.4   c-0.4-1.2-1.5-1.4-2.3-1.8c-23.5-12.4-47.1-24.8-70.7-37.2c-18.7-9.8-37.4-19.7-56.1-29.6c-5.2-2.7-5.3-2.6-5.3,3.4   c0,43.1,0,86.2,0,129.4c0,0.8,0,1.7,0,2.5c-0.1,2.6,0.9,3.4,3.3,2.1c2.9-1.6,5.8-3.2,8.8-4.8c39.4-20.4,78.9-40.9,118.3-61.3   C336.9,247.3,338.7,247,339.5,245.4z" fillRule="#A7A7A7" />
                               </g>
@@ -175,34 +176,7 @@ export default function Team() {
             <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2832&q=80" alt="" className="aspect-[5/2] w-full object-cover xl:rounded-3xl" />
           </div>
           {/* Vision section */}
-          <div className="mt-32 overflow-hidden sm:mt-40">
-            <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
-              <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
-                <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
-                  <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our Vision</h2>
-                  <p className="mt-6 text-lg leading-8 text-gray-600">The Wider Fertile Crescent area is restored to full ecological health with all the native constituent species and people living in harmony and balance with the land. We envision a transformation from barren, brown landscapes to lush green ecosystems with rich fertile soil and abundant water.</p>
-                  <p className="mt-6 text-lg leading-8 text-gray-600">Based on a deep personal connection with and care for the land and formed by mastery of arts and crafts, bioregional networks of ecovillages and communities are self sufficient with regenerative agriculture, sustainable energy, transport, and circular economies. </p>
-                  <p className="mt-6 text-lg leading-8 text-gray-600">We collaborate with the larger planetary networks of organisations and civil societies while soulful medicine, education, and culture feeds various needs within the network. </p>
-                </div>
-                <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
-                  <div className="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
-                    <img src="https://images.unsplash.com/photo-1670272502246-768d249768ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1152&q=80" alt="" className="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover" />
-                  </div>
-                  <div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
-                    <div className="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
-                      <img src="https://images.unsplash.com/photo-1605656816944-971cd5c1407f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80" alt="" className="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover" />
-                    </div>
-                    <div className="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
-                      <img src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1152&h=842&q=80" alt="" className="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover" />
-                    </div>
-                    <div className="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
-                      <img src="https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80" alt="" className="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <Vision />
         </main>
 
         {/* Footer */}

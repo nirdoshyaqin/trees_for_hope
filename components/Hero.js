@@ -29,7 +29,10 @@ function Hero() {
               <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
                 <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">About Trees for Hope </h1>
                 {/* <p className="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">Over the last 9 years I have been building a network with a global body of allies who have been supporting the growth of Trees for Hope towards its aim to rewild the Fertile Crescent. Being rooted in the Findhorn Community has helped me to grow and connect with numerous allies, such as the Gaia Education, Global Ecovillage Network, Trees for Life, WILD, LUSH, Cana Foundation, Climate Change and Consciousness Community, Humanity Rising, and many more.</p> */}
-                <p className="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">The Charity was born out of the need to respond to the ecological, social, and personal despair in the Fertile Crescent. Our journey began from a desire to help with the necessary transformations so that the land could recover fully to its natural intelligence. We offer the processes, skills, tools and means needed to initiate the ecological recovery and personal / social transformations. Together with our partners and volunteers we are engaged in the rewilding processes in the Wider Fertile Crescent and a demonstration project in the rainforests of Scotland.</p>
+                <p className="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">
+                  The Charity was born out of the need to respond to the ecological, social, and personal despair in the Fertile Crescent. Our journey began from a desire to help with the necessary transformations so that the land could recover fully to its natural intelligence. We offer the processes, skills, tools and means needed to initiate the ecological recovery and personal / social transformations. Together with our partners and volunteers we are engaged in the rewilding processes in <b>the Wider Fertile Crescent*</b> and a demonstration project in the rainforests of Scotland.
+                </p>
+                <p className="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">*The Wider Fertile Crescent is the geographic region of Iran, Afghanistan, Pakistan, Iraq, Syria, Turkey, Lebanon, Jordan, etc. There is an open invitation from Trees for Hope to the people living in these areas to co-create a network of rewilding our lands and ourselves.</p>
                 <button type="button" className="mt-8 rounded-full bg-indigo-600 px-4 py-2.5 text-md font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
                   <Link href="/message">Learn more</Link>
                 </button>
@@ -37,27 +40,27 @@ function Hero() {
               <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
                 <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
                   <div className="relative">
-                    <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80" alt="" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
+                    <img src="/top/top_hero_05.jpg" alt="" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
                     <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                   </div>
                 </div>
                 <div className="mr-auto w-44 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36">
                   <div className="relative">
-                    <img src="https://images.unsplash.com/photo-1485217988980-11786ced9454?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80" alt="" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
+                    <img src="/top/top_hero_02.jpg" alt="" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
                     <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                   </div>
                   <div className="relative">
-                    <img src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-x=.4&w=396&h=528&q=80" alt="" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
+                    <img src="/top/top_hero_07.jpg" alt="" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
                     <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                   </div>
                 </div>
                 <div className="w-44 flex-none space-y-8 pt-32 sm:pt-0">
                   <div className="relative">
-                    <img src="https://images.unsplash.com/photo-1670272504528-790c24957dda?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=left&w=400&h=528&q=80" alt="" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
+                    <img src="/top/top_hero_11.jpeg" alt="" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
                     <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                   </div>
                   <div className="relative">
-                    <img src="https://images.unsplash.com/photo-1670272505284-8faba1c31f7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80" alt="" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
+                    <img src="/top/top_hero_06.jpg" alt="" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
                     <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                   </div>
                 </div>
