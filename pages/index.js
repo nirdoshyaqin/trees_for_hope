@@ -2,6 +2,7 @@ import MoreStories from "../components/more-stories";
 import Layout from "../components/layout";
 import { getAllPostsForHome } from "../lib/api";
 import Head from "next/head";
+import Image from "next/image";
 import Header from "@/components/header";
 import Hero from "@/components/Hero";
 import { CMS_NAME } from "../lib/constants";
