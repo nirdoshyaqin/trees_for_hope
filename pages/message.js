@@ -96,7 +96,7 @@ export default function Message() {
                   </li>
                 </ul> */}
                 {/* <p className="mt-8">Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.</p> */}
-                <figure className="mt-10 border-l border-indigo-600 pl-9">
+                {/* <figure className="mt-10 border-l border-indigo-600 pl-9">
                   <blockquote className="font-semibold text-gray-900">
                     <p>“Vel ultricies morbi odio facilisi ultrices accumsan donec lacus purus. Lectus nibh ullamcorper ac dictum justo in euismod. Risus aenean ut elit massa. In amet aliquet eget cras. Sem volutpat enim tristique.”</p>
                   </blockquote>
@@ -106,14 +106,14 @@ export default function Message() {
                       <strong className="font-semibold text-gray-900">Maria Hill</strong> – Marketing Manager
                     </div>
                   </figcaption>
-                </figure>
+                </figure> */}
               </div>
 
-              <div className="mt-16 max-w-2xl">
+              {/* <div className="mt-16 max-w-2xl">
                 <h2 className="text-2xl font-bold tracking-tight text-gray-900">Everything you need to get up and running</h2>
                 <p className="mt-6">Purus morbi dignissim senectus mattis adipiscing. Amet, massa quam varius orci dapibus volutpat cras. In amet eu ridiculus leo sodales cursus tristique. Tincidunt sed tempus ut viverra ridiculus non molestie. Gravida quis fringilla amet eget dui tempor dignissim. Facilisis auctor venenatis varius nunc, congue erat ac. Cras fermentum convallis quam.</p>
                 <p className="mt-8">Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit.</p>
-              </div>
+              </div> */}
             </div>
           </div>{" "}
           {/* Image section */}
