@@ -57,7 +57,7 @@ export default function Mission() {
                 </div>
               </div>
               <figure className="mt-10 mb-16 flex justify-center">
-                <img className="sm:h-4/6 sm:w-4/6 rounded-xl bg-gray-50 object-cover" src="/three_findhorn_principles.jpg" alt="three_findhorn_principles" />
+                <img className="sm:h-4/6 sm:w-4/6 rounded-xl bg-gray-50 object-cover" src="/top/top_vision_04.jpg" alt="three_findhorn_principles" />
                 {/* <figcaption className="mt-4 flex gap-x-2 text-sm leading-6 text-gray-500">
                   <InformationCircleIcon className="mt-0.5 h-5 w-5 flex-none text-gray-300" aria-hidden="true" />
                   Faucibus commodo massa rhoncus, volutpat.
