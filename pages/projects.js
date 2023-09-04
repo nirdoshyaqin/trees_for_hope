@@ -49,13 +49,13 @@ export default function Project() {
                 <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
                   <div className="prose w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
                     <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Our Projects</h1>
-                    <h2>Rewilding the Atlantic Rainforest in the West Cost of Scotland</h2>
+                    <h2>Reviving the Atlantic Rainforest in the West Cost of Scotland</h2>
                     <p className="mt-6 text-lg leading-8 text-gray-600">This project is about practical rewilding of the west coast of Scotland. This area was home to the Atlantic Rainforest. Tragically, like the rest of the forests in Scotland, only about 1% of the rainforests remain.</p>
                     <p className="mt-6 text-lg leading-8 text-gray-600">Our purpose is to integrate training and education for rewilding in our programmes. We welcome participants from the Fertile Crescent to join this programme, so that by engaging in practical work and education programme, they will become equipped with the right tools to initiate and carry out rewilding projects in the Fertile Crescent.</p>
                     <p className="mt-6 text-lg leading-8 text-gray-600">We will be collaborating with the local communities in the West Coast to rewild with them. This is an essential element of any rewilding project. By engaging in rewilding the Atlantic Rainforest in the West Coast of Scotland with participants from the Fertile Crescent, we will be creating a resonance for rewilding projects in the Fertile Crescent.</p>
                     <h2>Ecovillage Living & Learning Experience</h2>
                     <p className="mt-6 text-lg leading-8 text-gray-600">A three-week-long program in an ecovillage to experience living and learning and germinating your rewilding project. An opportunity to renew, release, and connect with a supporting network of people to grow. Once your rewilding project is hatched, and you have started the process in your community, you can apply to join our rewilding network.</p>
-                    <p className="mt-6 text-lg leading-8 text-gray-600">Our next ELLE program will be held in November 2023</p>
+                    {/* <p className="mt-6 text-lg leading-8 text-gray-600">Our next ELLE program will be held in November 2023</p> */}
                     <h2>Network Meetings, or pow-wows</h2>
                     <p className="mt-6 text-lg leading-8 text-gray-600">
                       A quarterly online meeting for the communities in the Fertile Crescent to exchange experiences and to learn from each other. <br></br>A self-organised style of gathering.
@@ -64,27 +64,27 @@ export default function Project() {
                   <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
                     <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
                       <div className="relative">
-                        <img src="projects/projects_07.jpg" alt="" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
+                        <img src="projects/projects_10.jpg" alt="" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
                         <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                       </div>
                     </div>
                     <div className="mr-auto w-44 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36">
                       <div className="relative">
-                        <img src="projects/projects_01.jpg" alt="" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
+                        <img src="projects/projects_11.jpg" alt="" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
                         <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                       </div>
                       <div className="relative">
-                        <img src="projects/projects_03.jpg" alt="" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
+                        <img src="projects/projects_13.jpg" alt="" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
                         <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                       </div>
                     </div>
                     <div className="w-44 flex-none space-y-8 pt-32 sm:pt-0">
                       <div className="relative">
-                        <img src="projects/projects_06.jpg" alt="" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
+                        <img src="projects/projects_09.jpg" alt="" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
                         <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                       </div>
                       <div className="relative">
-                        <img src="projects/projects_08.jpg" alt="" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
+                        <img src="projects/projects_15.jpg" alt="" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
                         <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                       </div>
                     </div>
