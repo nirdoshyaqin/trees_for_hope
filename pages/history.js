@@ -116,17 +116,17 @@ export default function Message() {
                 </div>
                 <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
                   <div className="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
-                    <img src="/history/history_01.jpg" alt="" className="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover" />
+                    <img src="/history/history_06.jpg" alt="" className="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover" />
                   </div>
                   <div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
                     <div className="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
-                      <img src="/history/history_05.jpg" alt="" className="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover" />
+                      <img src="/history/history_07.jpg" alt="" className="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover" />
                     </div>
                     <div className="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
                       <img src="/history/history_03.jpg" alt="" className="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover" />
                     </div>
                     <div className="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
-                      <img src="/history/history_02.jpg" alt="" className="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover" />
+                      <img src="/history/history_08.jpg" alt="" className="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover" />
                     </div>
                   </div>
                 </div>
@@ -149,6 +149,30 @@ export default function Message() {
                   <p className="mt-1 text-base leading-7 text-gray-600">{item.description}</p>
                 </div>
               ))}
+            </div>
+          </div>
+          <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
+            <div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8 mt-32">
+              <div className="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
+                <img src="/history/history_11.jpg" alt="" className="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover" />
+              </div>
+              <div className="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
+                <img src="/history/history_01.jpg" alt="" className="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover" />
+              </div>
+              <div className="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
+                <img src="/history/history_12.jpg" alt="" className="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover" />
+              </div>
+            </div>
+            <div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8 mt-16">
+              <div className="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
+                <img src="/history/history_09.jpg" alt="" className="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover" />
+              </div>
+              <div className="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
+                <img src="/history/history_14.jpg" alt="" className="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover" />
+              </div>
+              <div className="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
+                <img src="/history/history_15.jpg" alt="" className="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover" />
+              </div>
             </div>
           </div>
         </main>
