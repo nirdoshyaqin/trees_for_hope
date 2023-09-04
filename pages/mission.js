@@ -71,6 +71,21 @@ export default function Mission() {
               <h3 className="mt-10 text-xl font-medium tracking-tight text-gray-900">🙌 &nbsp;We create a bridge between the Wider Fertile Crescent and the rest of the world to allow for a healing exchange enabling love, peace and hope to be manifested.</h3>
             </div>
           </div>{" "}
+          <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
+            <div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8 mt-32">
+              <div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
+                <div className="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
+                  <img src="/mission/mission_03.jpg" alt="" className="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover" />
+                </div>
+                <div className="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
+                  <img src="/mission/mission_02.jpg" alt="" className="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover" />
+                </div>
+                <div className="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
+                  <img src="/mission/mission_01.jpg" alt="" className="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover" />
+                </div>
+              </div>
+            </div>
+          </div>
           {/* Image section */}
           <div className="mt-16 sm:mt-20 xl:mx-auto xl:max-w-7xl xl:px-8">
             <img src="top/top_vision_04.jpg" />
