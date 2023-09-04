@@ -18,9 +18,7 @@ const people = [
     role: "Founder and Project Coordinator",
     imageUrl: "/pupak.jpg",
     bio: "<p>Pupak is passionate about wholeness, be it people or places.  She finds connecting with nature a deep source of healing.  For her, initiating Trees for Hope was a natural response to heal the ecological and human damages she had witnessed in her environments.</p><p>She is responsible for the charity’s establishment and delivering on its objectives.She is the author of Theatre O, Healing from War, Living in Beauty Way.  She is originally from Iran and Japan, and lives in Findhorn Ecovillage in Scotland.</p>",
-    twitterUrl: "#",
-    linkedinUrl: "#",
-    youtubeUrl: "#",
+    youtubeUrl: "https://www.youtube.com/@Pupak_Haghighi",
     homePageUrl: "http://www.pupakhaghighi.net/"
   },
   {
@@ -28,8 +26,6 @@ const people = [
     role: "Trustee",
     imageUrl: "/alan.jpg",
     bio: "<p>Alan Watson Featherstone is an ecologist, nature photographer and inspirational public speaker. In 1986 he founded the award-winning Scottish conservation charity, Trees for Life, and was its executive director for almost 30 years. During that time it became the leading organisation working to restore the Caledonian Forest in Scotland and took on ownership of the 10,000 acre Dundreggan Estate in Glenmoriston as its flagship project for native woodland recovery. His TedX talk about this work is at: 👇 youtube icon below.</p> <p>Through his work with Trees for Life, Alan helped to provide the inspiration for other ecological restoration projects in the Scottish Borders, on Dartmoor in England and for the creation of the Yendegaia National Park in Tierra del Fuego, Chile. He also founded the Restoring the Earth project, to promote the restoration of the planet’s degraded ecosystems as the most important task for humanity in the 21st century. </p> <p>Alan regularly contributes articles to various professional and popular publications, and writes a blog at: alanwatsonfeatherstone.com/blog/. His photographs have appeared in publications such as Time magazine and Encyclopedia Britannica, and he is currently working on a high quality photographic book project about the endangered Araucaria (monkey puzzle tree) forests of Chile.</p><p>Alan has given lectures at events and conferences in more than 20 countries worldwide, and has received a number of awards for his work, including the Schumacher Award in 2001, the Spirit of Scotland Environment Award in 2012 and the RSPB Nature of Scotland Outstanding Contribution Award in 2013, whilst Trees for Life was declared the UK Conservation Project of the Year in 1991.</p><p>Alan has been vegan for over 40 years and lives with his wife, Pupak, in an energy-efficient ecologically designed house in the Findhorn Community and Ecovillage in northeast Scotland. He is a trustee of three locally-based charities: the Findhorn Hinterland Trust, Trees for Hope and ‘Wild things! environmental education in action’.</p>",
-    twitterUrl: "#",
-    linkedinUrl: "#",
     youtubeUrl: "https://www.youtube.com/watch?v=nAGHUkby2Is",
     homePageUrl: "http://alanwatsonfeatherstone.com/blog/"
   },
@@ -38,9 +34,6 @@ const people = [
     role: "Trustee / Director",
     imageUrl: "/minni.jpg",
     bio: "For over 25 years MINNI JAIN has been working with communities to regenerate their landscapes and lives. She is the Operations Director of The Flow Partnership, working on community-led management of droughts and floods across Africa, India and Europe. Minni is also on the boards of the Biodynamic Land Trust, the Agroforestry Research Trust and the Berkana Institute , USA.",
-    twitterUrl: "#",
-    linkedinUrl: "#",
-    youtubeUrl: "#",
     homePageUrl: "https://www.theflowpartnership.org/"
   },
   {
@@ -48,9 +41,6 @@ const people = [
     role: "Trustee / Director",
     imageUrl: "/philip.png",
     bio: "<p>After finishing a maths degree at Oxford, HE came to a turning point in his life – either settle for a for the glittering career in finance or instead, follow a feeling of whole potential. This led him to buying a bicycle to ride towards Africa, a six month trip which convinced him that Europe should match its technological advancement with spiritual maturity.</p><p>Post the trip to Africa, Interspersed with designing software for organisations, He worked on this bridge of science and spirit through writing, inquiry and talks. Holistic Science became a vehicle for this inquiry while teaching for 10 years at an ecological college in the UK.</p><p> Since 2018 He has been taking the inquiry further through a range of independent courses across 15 countries. He is the author of ‘Time, Light and the Dice of Creation’, Floris Books, and founding editor of the Holistic Science Journal. He is on the board of Group Analysis India, and also Director Innovation at The Flow Partnership, working to transform degraded landscapes to the miracle of life and opportunity, through the return of water. Trees for Hope complements with forest restoration what the Flow Partnership enables with water.",
-    twitterUrl: "#",
-    linkedinUrl: "#",
-    youtubeUrl: "#",
     homePageUrl: "https://www.holisticsciencejournal.co.uk/"
   },
   {
@@ -58,9 +48,6 @@ const people = [
     role: "Trustee",
     imageUrl: "/bahar.jpg",
     bio: "<p>Bahar is born in Iran, in city of Tehran and has been living in Canada for the past 22 years. A registered psychotherapist working mostly in Toronto and a student of consciousness from an early age. Her main mission in life is weaving cultures and wisdoms of the world as steps towards healing of our human relationships in relation to all sentient beings. <p>In search for healing crisis of our time, Bahar found herself deep in Amazon Rainforest and was gifted with an organization (Yurahu.org) that aims to provide resources needed for indigenous people (Yawanawa Tribe) to preserve the medicinal knowledge of the area.</p></p><p>Currently, Bahar lives half of the year in Iran and half in Canada.The journey of Trees of Hope for me began in the middle of Covid, when she was looking to see what is emerging and unfolding. She was in Iran at the time, connecting to my roots after two decades, and in in deep search for life.</p> <p>She decided to investigate eco-villages and began to interview 30 people living in various eco-villages to hear about their experiences of Covid while living in communities. It was through Findhorn that She met Pupak online. During the past 2 years, She felt a strong bond with Pupak. She led regular workshop series on alchemy of soil, soul, and society. She felt drawn to the workshops, and a path began to emerge. She has full trust and has experienced the alchemy of hives in soil, soul and society. She believes that future can sprout beautifully when human beings follow nature’s intelligence.</p>",
-    twitterUrl: "#",
-    linkedinUrl: "#",
-    youtubeUrl: "#",
     homePageUrl: "https://yurahu.org/"
   }
 
