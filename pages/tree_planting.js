@@ -11,7 +11,9 @@ import Footer from "@/components/footer";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import { Switch } from "@headlessui/react";
 import { HubspotForm } from "@/lib/hubspot";
-import TreeRegistrationForm from "@/components/TreeRegistrationForm";
+
+// import TreeRegistrationForm from "@/components/TreeRegistrationForm";
+import TreeRegistrationForm from "@/components/TreeRegistrationFormSG";
 
 // const inter = Inter({ subsets: ["latin"] });
 
