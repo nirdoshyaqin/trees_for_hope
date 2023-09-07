@@ -16,3 +16,11 @@
 .prose .avatar {
   margin: 0px !important;
 }
+
+/* マージンが効かないために設定 */
+.mt-80px {
+  margin-top: 80px !important;
+}
+.mt-0px {
+  margin-top: 0px;
+}
