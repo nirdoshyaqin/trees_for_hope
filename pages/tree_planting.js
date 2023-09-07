@@ -54,45 +54,50 @@ export default function TreePlanting() {
               />
             </div>
             <div className="overflow-hidden">
-              <div className="mx-auto max-w-7xl px-6 pb-32 mt-32 sm:mt-40 lg:px-8">
-                <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
-                  <div className="prose w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
-                    <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Help us plant more trees @ £10 / tree</h1>
-                    <p className="mt-6 text-lg leading-8 text-gray-600">Our tree-planting activity began with a memorial grove for a beloved community member in Findhorn. Leaving a legacy of a little woodland is an invaluable treasure for the wildlife and human life alike. </p>
-                    <p className="mt-6 text-lg leading-8 text-gray-600">Planting more native trees is our aspiration to help with the recovery of the rainforest in the West Cost of Scotland. We ask for your support to sponsor a dedicated grove for someone you love, either dead or alive, or for a cause you want to grow into the future. </p>
-                    <p className="mt-6 text-lg leading-8 text-gray-600">Please fill the form below to sponsor a grove of trees. Please feel free to add your words and images ( if any ) for the dedication.</p>
-                    <div className="mt-80px mt-20 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:pl-0">
-                      <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
-                        <div className="relative">
-                          <img src="../projects/projects_10.jpg" alt="" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
-                          <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                        </div>
-                      </div>
-                      <div className="mr-auto w-44 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36">
-                        <div className="relative">
-                          <img src="../projects/projects_11.jpg" alt="" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
-                          <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                        </div>
-                        <div className="relative">
-                          <img src="../projects/projects_13.jpg" alt="" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
-                          <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                        </div>
-                      </div>
-                      <div className="w-44 flex-none space-y-8 pt-32 sm:pt-0">
-                        <div className="relative">
-                          <img src="../projects/projects_09.jpg" alt="" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
-                          <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                        </div>
-                        <div className="relative">
-                          <img src="../projects/projects_15.jpg" alt="" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
-                          <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                        </div>
-                      </div>
+              <div className="mx-auto max-w-3xl px-6 mt-32 sm:mt-40 lg:px-8">
+                <figure className="mt-10 mb-16 flex justify-center">
+                  <img className="rounded-xl bg-gray-50 object-cover" src="/tree_planting/tree_planting_07.jpg" alt="three_findhorn_principles" />
+                  {/* <figcaption className="mt-4 flex gap-x-2 text-sm leading-6 text-gray-500">
+                  <InformationCircleIcon className="mt-0.5 h-5 w-5 flex-none text-gray-300" aria-hidden="true" />
+                  Faucibus commodo massa rhoncus, volutpat.
+                </figcaption> */}
+                </figure>
+                <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Help us plant more trees @ £10 / tree</h1>
+                <p className="mt-6 text-lg leading-8 text-gray-600">Our tree-planting activity began with a memorial grove for a beloved community member in Findhorn. Leaving a legacy of a little woodland is an invaluable treasure for the wildlife and human life alike. </p>
+                <p className="mt-6 text-lg leading-8 text-gray-600">Planting more native trees is our aspiration to help with the recovery of the rainforest in the West Cost of Scotland. We ask for your support to sponsor a dedicated grove for someone you love, either dead or alive, or for a cause you want to grow into the future. </p>
+                <p className="mt-6 text-lg leading-8 text-gray-600">Please fill the form below to sponsor a grove of trees. Please feel free to add your words and images ( if any ) for the dedication.</p>
+                <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center"></div>
+
+                <div className="mt-80px mt-20 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:pl-0">
+                  <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
+                    <div className="relative">
+                      <img src="/tree_planting/tree_planting_01.jpg" alt="" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
+                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                     </div>
-                    <TreeRegistrationForm />
+                  </div>
+                  <div className="mr-auto w-44 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36">
+                    <div className="relative">
+                      <img src="/tree_planting/tree_planting_08.jpg" alt="" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
+                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+                    </div>
+                    <div className="relative">
+                      <img src="/tree_planting/tree_planting_04.jpg" alt="" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
+                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+                    </div>
+                  </div>
+                  <div className="w-44 flex-none space-y-8 pt-32 sm:pt-0">
+                    <div className="relative">
+                      <img src="/tree_planting/tree_planting_06.jpg" alt="" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
+                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+                    </div>
+                    <div className="relative">
+                      <img src="/tree_planting/tree_planting_05.jpg" alt="" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
+                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+                    </div>
                   </div>
                 </div>
               </div>
+              <TreeRegistrationForm />
             </div>
           </div>
         </main>{" "}
