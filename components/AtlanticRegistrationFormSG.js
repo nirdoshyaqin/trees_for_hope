@@ -106,8 +106,8 @@ export default function AtlanticRegistrationFormSG() {
           <div className="relative isolate -z-10">
             <div className="isolate bg-white px-6 mt-40 lg:px-8">
               <div className="mx-auto max-w-2xl text-center">
-                <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Contact Us</h2>
-                <p className="mt-2 text-lg leading-8 text-gray-600">Let us hear from you. We’ll get back to you as soon as we can. Thank you.</p>
+                <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Registration Form</h2>
+                {/* <p className="mt-2 text-lg leading-8 text-gray-600">Let us hear from you. We’ll get back to you as soon as we can. Thank you.</p> */}
               </div>
               <form className="mx-auto mt-16 max-w-xl sm:mt-20" onSubmit={handleSubmit}>
                 <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">

@@ -58,15 +58,15 @@ export default function TreeRegistrationFormSG() {
       let img = document.getElementById("images");
       let imgfile = img.files[0];
       let reader = new FileReader();
-      reader.onload = function (e) {
-        resolve( e.target.result );
-      }
+      reader.onload = function(e) {
+        resolve(e.target.result);
+      };
       reader.readAsDataURL(imgfile);
     });
     // console.log(imgfile);
 
     // 内部の送信用APIへ
-    const res = await fetch('/api/send', {
+    const res = await fetch("/api/send", {
       // body: JSON.stringify(e),
       body: JSON.stringify({
         lastname: lastname,
@@ -76,22 +76,21 @@ export default function TreeRegistrationFormSG() {
         dedication_for: dedication_for,
         numbers_of_trees: numbers_of_trees,
         images: images,
-        imgfile: imgfile,//images.split("base64,")[1],
+        imgfile: imgfile, //images.split("base64,")[1],
         message: message
       }),
       headers: {
-        'Content-Type': 'application/json'
+        "Content-Type": "application/json"
       },
-      method: 'POST'
+      method: "POST"
     });
 
     const result = await res.json();
-    
-    if( result.status == 200 ){
+
+    if (result.status == 200) {
       // メール送信成功
       alert("メール送信成功");
     }
-
 
     // フォーム送信へ
     // await submit_hubspot_form(firstname, lastname, dedication_for, numbers_of_trees, email, company, images, message);
@@ -105,8 +104,8 @@ export default function TreeRegistrationFormSG() {
           <div className="relative isolate -z-10">
             <div className="isolate bg-white px-6 mt-40 lg:px-8">
               <div className="mx-auto max-w-2xl text-center">
-                <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Contact Us</h2>
-                <p className="mt-2 text-lg leading-8 text-gray-600">Let us hear from you. We’ll get back to you as soon as we can. Thank you.</p>
+                <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Registration Form</h2>
+                {/* <p className="mt-2 text-lg leading-8 text-gray-600">Let us hear from you. We’ll get back to you as soon as we can. Thank you.</p> */}
               </div>
               <form className="mx-auto mt-16 max-w-xl sm:mt-20" onSubmit={handleSubmit}>
                 <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
