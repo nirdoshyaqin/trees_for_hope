@@ -14,7 +14,7 @@ export default function Meta() {
       <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
       <meta name="theme-color" content="#000" />
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
-      <meta name="description" content={`Trees for Hope Website.`} />
+      <meta name="We offer the processes, skills, tools and means needed to initiate the ecological recovery and personal, social transformations. " content={`Trees for Hope Website.`} />
       <meta property="og:image" content={HOME_OG_IMAGE_URL} />
     </Head>
   );
