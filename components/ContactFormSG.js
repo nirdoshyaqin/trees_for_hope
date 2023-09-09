@@ -68,7 +68,7 @@ export default function contactFormSG() {
       body: JSON.stringify({
         lastname: lastname,
         firstname: firstname,
-        company: company,
+        // company: company,
         email: email,
         phone: phone,
         message: message

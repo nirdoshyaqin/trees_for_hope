@@ -54,15 +54,15 @@ export default function TreeRegistrationFormSG() {
     // reader.readAsDataURL(imgfile);
 
     // 画像の読み込みをawaitで待つ
-    const imgfile = await new Promise((resolve, reject) => {
-      let img = document.getElementById("images");
-      let imgfile = img.files[0];
-      let reader = new FileReader();
-      reader.onload = function(e) {
-        resolve(e.target.result);
-      };
-      reader.readAsDataURL(imgfile);
-    });
+    let img = document.getElementById("images");
+    let imgfile = img.files[0];
+    // imgfile = await new Promise((resolve, reject) => {
+    //   let reader = new FileReader();
+    //   reader.onload = function(e) {
+    //     resolve(e.target.result);
+    //   };
+    //   reader.readAsDataURL(imgfile);
+    // });
     // console.log(imgfile);
 
     // 内部の送信用APIへ
@@ -86,6 +86,7 @@ export default function TreeRegistrationFormSG() {
     });
 
     const result = await res.json();
+    console.log( result );
 
     if (result.status == 200) {
       // メール送信成功

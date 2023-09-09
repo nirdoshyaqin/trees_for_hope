@@ -11,9 +11,32 @@ export default function handler(req, res) {
     // const image = images.split("base64,")[1];
     // const imageBuffer = new Buffer.from(image, "base64");
 
-    const text = "I have received your inquiry. Please await a response.\n\n" + "lastname: " + req.body.lastname + "\n" + "firstname: " + req.body.firstname + "\n" + "email: " + req.body.email + "\n" + "company: " + req.body.company + "\n" + "dedication_for: " + req.body.dedication_for + "\n" + "numbers_of_trees: " + req.body.numbers_of_trees + "\n" + "images: " + req.body.images + "\n" + "message: " + req.body.message;
+    // res.status(200).json( req.body );//.end();
 
-    const html = "I have received your inquiry. Please await a response.<br><br>" + "lastname: " + req.body.lastname + "<br>" + "firstname: " + req.body.firstname + "<br>" + "email: " + req.body.email + "<br>" + "company: " + req.body.company + "<br>" + "dedication_for: " + req.body.dedication_for + "<br>" + "numbers_of_trees: " + req.body.numbers_of_trees + "<br>" + "images: " + req.body.images + "<br>" + "message: " + req.body.message;
+    // req.bodyのキーと値を取得して、メール本文を作成
+    let text = Object.keys(req.body).map(key => {
+      // if (key === "images") {
+      //   value = value.split("base64,")[1];
+      // }
+      return `${key}: ${req.body[key]}`;
+      // return text;
+
+    }).join("\n");
+    let html = Object.keys(req.body).map(key => {
+      // if (key === "images") {
+      //   value = value.split("base64,")[1];
+      // }
+      return `${key}: ${req.body[key]}`;
+      // return text;
+
+    }).join("<br>");
+
+    // 先頭に「"I have received your inquiry. Please await a response."」を追加
+    text = "I have received your inquiry. Please await a response.\n\n" + text;
+    html = "I have received your inquiry. Please await a response.<br><br>" + html;
+
+    // const text = "I have received your inquiry. Please await a response.\n\n" + "lastname: " + req.body.lastname + "\n" + "firstname: " + req.body.firstname + "\n" + "email: " + req.body.email + "\n" + "company: " + req.body.company + "\n" + "dedication_for: " + req.body.dedication_for + "\n" + "numbers_of_trees: " + req.body.numbers_of_trees + "\n" + "images: " + req.body.images + "\n" + "message: " + req.body.message;
+    // const html = "I have received your inquiry. Please await a response.<br><br>" + "lastname: " + req.body.lastname + "<br>" + "firstname: " + req.body.firstname + "<br>" + "email: " + req.body.email + "<br>" + "company: " + req.body.company + "<br>" + "dedication_for: " + req.body.dedication_for + "<br>" + "numbers_of_trees: " + req.body.numbers_of_trees + "<br>" + "images: " + req.body.images + "<br>" + "message: " + req.body.message;
 
     let messageFields = {
       subject: "Thank you for your inquiry.",
@@ -29,6 +52,7 @@ export default function handler(req, res) {
         }
       },
       {
+        // to: "ogawa@undefinedcode.com",
         to: "himalayanowhere@gmail.com",
         substitutions: {
           textMessage: text,
@@ -41,7 +65,24 @@ export default function handler(req, res) {
     messageFields["html"] = "%htmlMessage%";
     messageFields["substitutionWrappers"] = ["%", "%"];
 
-    // const msg = {
+    (async () => {
+      try {
+        await sgMail.send(messageFields);
+        // await sgMail.send(msg);
+        res.status(200).json({ status: 200, message: "Email sent successfully" });
+      } catch (error) {
+        console.error(error);
+        if (error.response) {
+          console.error(error.response.body);
+        }
+        res.status(500).json({ status: 500, message: "Internal Server Error" });
+      }
+    })();
+  }
+}
+
+
+// const msg = {
     //   to: req.body.email,
     //   // to: "ogawa@undefinedcode.com",
     //   from: 'ogawa@undefinedcode.com',
@@ -83,19 +124,3 @@ export default function handler(req, res) {
     //   //   }
     //   // ]
     // };
-
-    (async () => {
-      try {
-        await sgMail.send(messageFields);
-        // await sgMail.send(msg);
-        res.status(200).json({ status: 200, message: "Email sent successfully" });
-      } catch (error) {
-        console.error(error);
-        if (error.response) {
-          console.error(error.response.body);
-        }
-        res.status(500).json({ status: 500, message: "Internal Server Error" });
-      }
-    })();
-  }
-}
