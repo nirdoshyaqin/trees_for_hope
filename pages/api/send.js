@@ -13,7 +13,7 @@ export const config = {
 export default function handler(req, res) {
   if (req.method === "POST") {
     // const sgMail = require('@sendgrid/mail');
-    sgMail.setApiKey("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"); //SendGridのAPIキー
+    sgMail.setApiKey("*****"); //SendGridのAPIキー
 
     // req.bodyのキーと値を取得して、メール本文を作成
     let text = Object.keys(req.body).map(key => {
@@ -72,8 +72,8 @@ export default function handler(req, res) {
         }
       },
       {
-        to: "ogawa@undefinedcode.com",
-        // to: "himalayanowhere@gmail.com",
+        // to: "ogawa@undefinedcode.com",
+        to: "himalayanowhere@gmail.com",
         substitutions: {
           textMessage: text,
           htmlMessage: html
