@@ -61,7 +61,7 @@ export default function handler(req, res) {
 
     let messageFields = {
       subject: "Thank you for your inquiry.",
-      from: "himalayanowhere@gmail.com",
+      from: "ogawa@undefinedcode.com",
       attachments: _attachments
     };
 
