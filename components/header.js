@@ -10,7 +10,7 @@ const navigation = [
   { name: "Mission", href: "/mission" },
   { name: "Projects", href: "/projects", childmenu: [{ name: "Atlantic Rainforest", href: "/projects/atlantic-rainforest" }] },
   { name: "Team", href: "/team" },
-  { name: "Tree Planting", href: "/tree_planting" },
+  { name: "Planting Trees", href: "/planting_trees" },
   { name: "Contact", href: "/contact" }
 ];
 

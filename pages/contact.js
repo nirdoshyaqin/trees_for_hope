@@ -18,7 +18,7 @@ import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import { Switch } from "@headlessui/react";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
-import ContactFormSG from "@/components/ContactFormSG";
+import ContactFormSG from "@/components/contactFormSG";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");

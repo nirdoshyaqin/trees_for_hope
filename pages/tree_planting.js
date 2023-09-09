@@ -26,7 +26,7 @@ export default function TreePlanting() {
   return (
     <>
       <Head>
-        <title>Tree Planting Page | Trees for Hope</title>
+        <title>Planting Trees Page | Trees for Hope</title>
         <meta name="We offer the processes, skills, tools and means needed to initiate the ecological recovery and personal, social transformations. " content="Trees for Hope Website" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
