@@ -4,39 +4,41 @@ import sgMail from "@sendgrid/mail";
 export const config = {
   api: {
     bodyParser: {
-      bodyParser: false,
+      bodyParser: false
       // sizeLimit: "1mb",
-    },
-  },
+    }
+  }
 };
 
 export default function handler(req, res) {
   if (req.method === "POST") {
     // const sgMail = require('@sendgrid/mail');
-    sgMail.setApiKey("*****"); //SendGridのAPIキー
+    sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
     // req.bodyのキーと値を取得して、メール本文を作成
-    let text = Object.keys(req.body).map(key => {
-      if (key === "imgfile" || key === "images") {
-        return "";
-      }
-      return `${key}: ${req.body[key]}`;
-
-    }).join("\n");
-    let html = Object.keys(req.body).map(key => {
-      if (key === "imgfile" || key === "images") {
-        return "";
-      }
-      return `${key}: ${req.body[key]}`;
-
-    }).join("<br>");
+    let text = Object.keys(req.body)
+      .map(key => {
+        if (key === "imgfile" || key === "images") {
+          return "";
+        }
+        return `${key}: ${req.body[key]}`;
+      })
+      .join("\n");
+    let html = Object.keys(req.body)
+      .map(key => {
+        if (key === "imgfile" || key === "images") {
+          return "";
+        }
+        return `${key}: ${req.body[key]}`;
+      })
+      .join("<br>");
 
     // 先頭に「"I have received your inquiry. Please await a response."」を追加
     text = "I have received your inquiry. Please await a response.\n\n" + text;
     html = "I have received your inquiry. Please await a response.<br><br>" + html;
 
-    // 
-    if( req.body.images ) {
+    //
+    if (req.body.images) {
       text += "\n\n" + "images: " + req.body.images + "\n\n";
       html += "<br><br>" + "images: " + req.body.images + "<br><br>";
     }
@@ -45,21 +47,21 @@ export default function handler(req, res) {
     // const html = "I have received your inquiry. Please await a response.<br><br>" + "lastname: " + req.body.lastname + "<br>" + "firstname: " + req.body.firstname + "<br>" + "email: " + req.body.email + "<br>" + "company: " + req.body.company + "<br>" + "dedication_for: " + req.body.dedication_for + "<br>" + "numbers_of_trees: " + req.body.numbers_of_trees + "<br>" + "images: " + req.body.images + "<br>" + "message: " + req.body.message;
 
     let _attachments = [];
-    if( req.body.imgfile ) {
+    if (req.body.imgfile) {
       _attachments = [
         {
           filename: "tempfile.jpg",
-          contentType: 'image/jpeg',
+          contentType: "image/jpeg",
           content: req.body.imgfile.split("base64,")[1],
           disposition: "attachment",
-          content_id: "mytext",
+          content_id: "mytext"
         }
       ];
     }
 
     let messageFields = {
       subject: "Thank you for your inquiry.",
-      from: "ogawa@undefinedcode.com",
+      from: "himalayanowhere@gmail.com",
       attachments: _attachments
     };
 
