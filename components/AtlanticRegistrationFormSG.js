@@ -91,7 +91,7 @@ export default function AtlanticRegistrationFormSG() {
 
     if (result.status == 200) {
       // メール送信成功
-      alert("メール送信成功");
+      alert("Email sent successfully.");
     }
 
     // フォーム送信へ
