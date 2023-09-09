@@ -69,26 +69,41 @@ export default function Mission() {
 
               <h3 className="mt-10 text-xl font-medium tracking-tight text-gray-900">🙌 &nbsp;We offer practical work to rejuvenate the land, accessing the experience of the existing networks of ecovillages and rewilding projects, which provides creative opportunities for healing the self, the history and cultural divides.</h3>
               <h3 className="mt-10 text-xl font-medium tracking-tight text-gray-900">🙌 &nbsp;We create a bridge between the Wider Fertile Crescent and the rest of the world to allow for a healing exchange enabling love, peace and hope to be manifested.</h3>
-            </div>
-          </div>{" "}
-          <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
-            <div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8 mt-32">
-              <div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
-                <div className="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
-                  <img src="/mission/mission_03.jpg" alt="" className="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover" />
+
+              <div className="mt-80px mt-20 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:pl-0">
+                <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
+                  <div className="relative">
+                    <img src="/tree_planting/tree_planting_01.jpg" alt="" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
+                    <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+                  </div>
                 </div>
-                <div className="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
-                  <img src="/mission/mission_02.jpg" alt="" className="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover" />
+                <div className="mr-auto w-44 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36">
+                  <div className="relative">
+                    <img src="/tree_planting/tree_planting_08.jpg" alt="" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
+                    <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+                  </div>
+                  <div className="relative">
+                    <img src="/tree_planting/tree_planting_04.jpg" alt="" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
+                    <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+                  </div>
                 </div>
-                <div className="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
-                  <img src="/mission/mission_01.jpg" alt="" className="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover" />
+                <div className="w-44 flex-none space-y-8 pt-32 sm:pt-0">
+                  <div className="relative">
+                    <img src="/tree_planting/tree_planting_06.jpg" alt="" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
+                    <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+                  </div>
+                  <div className="relative">
+                    <img src="/tree_planting/tree_planting_05.jpg" alt="" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
+                    <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          {/* Image section */}
-          <div className="mt-16 sm:mt-20 xl:mx-auto xl:max-w-7xl xl:px-8">
-            <img src="top/top_vision_04.jpg" />
+          </div>{" "}
+          <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
+            <figure className="mt-10 mb-16 flex justify-center">
+              <img className="rounded-xl bg-gray-50 object-cover" src="/mission/mission_02.jpg" alt="three_findhorn_principles" />
+            </figure>
           </div>
         </main>
 

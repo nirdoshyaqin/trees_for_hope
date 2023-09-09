@@ -150,8 +150,37 @@ export default function Message() {
                 </div>
               ))}
             </div>
+            <div className="mt-80px mt-20 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:pl-0">
+              <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
+                <div className="relative">
+                  <img src="/tree_planting/tree_planting_01.jpg" alt="" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
+                  <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+                </div>
+              </div>
+              <div className="mr-auto w-44 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36">
+                <div className="relative">
+                  <img src="/history/history_11.jpg" alt="" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
+                  <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+                </div>
+                <div className="relative">
+                  <img src="history/history_01.jpg" alt="" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
+                  <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+                </div>
+              </div>
+              <div className="w-44 flex-none space-y-8 pt-32 sm:pt-0">
+                <div className="relative">
+                  <img src="/history/history_12.jpg" alt="" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
+                  <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+                </div>
+                <div className="relative">
+                  <img src="/history/history_09.jpg" alt="" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
+                  <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
+
+          {/* <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
             <div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8 mt-32">
               <div className="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
                 <img src="/history/history_11.jpg" alt="" className="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover" />
@@ -174,7 +203,7 @@ export default function Message() {
                 <img src="/history/history_15.jpg" alt="" className="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover" />
               </div>
             </div>
-          </div>
+          </div> */}
         </main>
 
         {/* Footer */}
