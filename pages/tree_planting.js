@@ -13,7 +13,7 @@ import { Switch } from "@headlessui/react";
 import { HubspotForm } from "@/lib/hubspot";
 
 // import TreeRegistrationForm from "@/components/TreeRegistrationForm";
-import TreeRegistrationForm from "@/components/TreeRegistrationFormSG";
+import TreeRegistrationFormSG from "@/components/TreeRegistrationFormSG";
 
 // const inter = Inter({ subsets: ["latin"] });
 
@@ -99,7 +99,7 @@ export default function TreePlanting() {
                   </div>
                 </div>
               </div>
-              <TreeRegistrationForm />
+              <TreeRegistrationFormSG />
             </div>
           </div>
         </main>{" "}
