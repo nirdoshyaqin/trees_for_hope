@@ -56,14 +56,21 @@ export default function TreeRegistrationFormSG() {
     // 画像の読み込みをawaitで待つ
     let img = document.getElementById("images");
     let imgfile = img.files[0];
-    // imgfile = await new Promise((resolve, reject) => {
-    //   let reader = new FileReader();
-    //   reader.onload = function(e) {
-    //     resolve(e.target.result);
-    //   };
-    //   reader.readAsDataURL(imgfile);
-    // });
+    imgfile = await new Promise((resolve, reject) => {
+      let reader = new FileReader();
+      reader.onload = function(e) {
+        resolve(e.target.result);
+      };
+      reader.readAsDataURL(imgfile);
+    });
     // console.log(imgfile);
+    // data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/....
+
+    // 画像サイズをチェック(1MBまで)
+    if (imgfile.length > 1048576) {
+      alert("The image size is too large. Please select an image that is less than 1MB in size.");
+      return;
+    }
 
     // 内部の送信用APIへ
     const res = await fetch("/api/send", {
@@ -77,7 +84,7 @@ export default function TreeRegistrationFormSG() {
         numbers_of_trees: numbers_of_trees,
         images: images,
         imgfile: imgfile, //images.split("base64,")[1],
-        message: message
+        // message: message
       }),
       headers: {
         "Content-Type": "application/json"
@@ -90,7 +97,7 @@ export default function TreeRegistrationFormSG() {
 
     if (result.status == 200) {
       // メール送信成功
-      alert("メール送信成功");
+      alert("Email sent successfully.");
     }
 
     // フォーム送信へ
@@ -161,7 +168,7 @@ export default function TreeRegistrationFormSG() {
                   </div>
                   <div className="sm:col-span-2">
                     <label htmlFor="images" className="block text-sm font-semibold leading-6 text-gray-900">
-                      images
+                      images ( Limit 1MB )
                     </label>
                     <div className="mt-2.5">
                       <input type="file" name="images" id="images" autoComplete="organization" value={images} placeholder="1" onChange={e => setImages(e.target.value)} className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
