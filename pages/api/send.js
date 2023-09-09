@@ -58,7 +58,6 @@ export default function handler(req, res) {
         }
       ];
     }
-
     let messageFields = {
       subject: "Thank you for your inquiry.",
       from: "ogawa@undefinedcode.com",
