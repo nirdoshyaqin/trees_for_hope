@@ -4,8 +4,8 @@ import sgMail from "@sendgrid/mail";
 export const config = {
   api: {
     bodyParser: {
-      bodyParser: false
-      // sizeLimit: "1mb",
+      bodyParser: false,
+      sizeLimit: "10mb",
     }
   }
 };
