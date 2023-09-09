@@ -50,7 +50,6 @@ export default function Contact() {
                   }}
                 />
               </div>
-
               <ContactFormSG />
             </div>
           </div>
