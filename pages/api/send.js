@@ -5,7 +5,7 @@ export const config = {
   api: {
     bodyParser: {
       bodyParser: false,
-      sizeLimit: "10mb",
+      sizeLimit: "10mb"
     }
   }
 };
@@ -60,7 +60,7 @@ export default function handler(req, res) {
     }
     let messageFields = {
       subject: "Thank you for your inquiry.",
-      from: "ogawa@undefinedcode.com",
+      from: "rewildingfertilecrescent@gmail.com",
       attachments: _attachments
     };
 
