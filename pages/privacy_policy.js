@@ -8,11 +8,10 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { CheckCircleIcon, InformationCircleIcon } from "@heroicons/react/20/solid";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
-import Vision from "@/components/Vision";
 
 // const inter = Inter({ subsets: ["latin"] });
 
-export default function Message() {
+export default function PrivacyPolicy() {
   return (
     <>
       <Head>
@@ -21,7 +20,7 @@ export default function Message() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="bg-white">
+      <div className="">
         {/* Header */}
         <Header />
         <main className="isolate">
@@ -48,14 +47,16 @@ export default function Message() {
             </div>
           </div>
           {/* Content section */}
-          <div className="bg-white px-6 mt-40 pb-16 lg:px-8">
+          <div className=" px-6 mt-40 pb-16 lg:px-8">
             <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
               {/* <p className="text-base text-center font-semibold leading-7 text-indigo-600">Founder's</p> */}
-              <div className="bg-white px-6 lg:px-8">
+              <div className=" px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl text-center">
                   <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Privacy Policy for Trees for Hope</h1>
-                  {/* <p className="mt-6 text-lg leading-8 text-gray-600">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p> */}
                 </div>
+                <figure class="mt-10 flex justify-center">
+                  <img class="sm:h-5/6 sm:w-5/6 rounded-xl bg-gray-50 object-cover" src="/privacy_policy/privacy_policy_01.jpg" alt="" />
+                </figure>
               </div>
               <p className="mt-6 text-lg leading-8">At Trees for Hope, accessible from https://www.treesforhope.earth/, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Trees for Hope and how we use it.</p>
               <p className="mt-6 text-lg leading-8">If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.</p>
