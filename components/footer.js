@@ -8,7 +8,8 @@ const footerNavigation = {
     { name: "Projects", href: "/projects" },
     { name: "Team", href: "/team" },
     { name: "Planting Trees", href: "/tree_planting" },
-    { name: "Contact", href: "/contact" }
+    { name: "Contact", href: "/contact" },
+    { name: "Privacy Policy", href: "/privacy_policy" }
   ],
   social: [
     {

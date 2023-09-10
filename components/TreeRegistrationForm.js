@@ -192,7 +192,7 @@ export default function TreeRegistrationForm() {
                     </div>
                     <Switch.Label className="text-sm leading-6 text-gray-600">
                       By selecting this, you agree to our{" "}
-                      <a href="#" className="font-semibold text-indigo-600">
+                      <a href="/privacy_policy" className="font-semibold text-indigo-600">
                         privacy&nbsp;policy
                       </a>
                       .
