@@ -11,7 +11,8 @@ const navigation = [
   { name: "Projects", href: "/projects", childmenu: [{ name: "Atlantic Rainforest", href: "/projects/atlantic-rainforest" }] },
   { name: "Team", href: "/team" },
   { name: "Planting Trees", href: "/tree_planting" },
-  { name: "Contact", href: "/contact" }
+  { name: "Contact", href: "/contact" },
+  { name: "Privacy Policy", href: "/privacy_policy" }
 ];
 
 function Header() {
