@@ -73,7 +73,7 @@ export default function handler(req, res) {
         }
       },
       {
-        to: "rewildingfertilecrescent@gmail.com",
+        to: "pupak@treesforhope.earth",
         substitutions: {
           textMessage: text,
           htmlMessage: html
