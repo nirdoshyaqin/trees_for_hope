@@ -64,11 +64,14 @@ export default function TreePlanting() {
                   Faucibus commodo massa rhoncus, volutpat.
                 </figcaption> */}
                 </figure>
-                <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Help us plant more trees @ £10 / tree</h1>
+                <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Help us plant more trees</h1>
                 <p className="mt-6 text-lg leading-8 text-gray-600">Our tree-planting activity began with a memorial grove for a beloved community member in Findhorn. Leaving a legacy of a little woodland is an invaluable treasure for the wildlife and human life alike. </p>
                 <p className="mt-6 text-lg leading-8 text-gray-600">Planting more native trees is our aspiration to help with the recovery of the rainforest in the West Cost of Scotland. We ask for your support to sponsor a dedicated grove for someone you love, either dead or alive, or for a cause you want to grow into the future. </p>
                 <p className="mt-6 text-lg leading-8 text-gray-600">Please fill the form below to sponsor a grove of trees. Please feel free to add your words and images ( if any ) for the dedication.</p>
                 <p className="mt-6 text-lg leading-8 text-gray-600">Payment method : bank transfer</p>
+                <p className="mt-6 text-lg leading-8 text-gray-600">
+                  Trees for Hope, Rewilding the Fertile Crescent<br></br>Account : 20673701<br></br>​Sort Code : 16 58 10
+                </p>
                 <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center"></div>
                 <div className="mt-80px mt-20 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:pl-0">
                   <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
