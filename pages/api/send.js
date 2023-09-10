@@ -34,8 +34,8 @@ export default function handler(req, res) {
       .join("<br>");
 
     // 先頭に「"I have received your inquiry. Please await a response."」を追加
-    text = "I have received your inquiry. Please await a response.\n\n" + text;
-    html = "I have received your inquiry. Please await a response.<br><br>" + html;
+    text = "Thank you for your enquiry. We will respond as soon as possible.\n\n" + text;
+    html = "Thank you for your enquiry. We will respond as soon as possible.<br><br>" + html;
 
     //
     if (req.body.images) {
