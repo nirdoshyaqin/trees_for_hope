@@ -73,8 +73,7 @@ export default function handler(req, res) {
         }
       },
       {
-        // to: "ogawa@undefinedcode.com",
-        to: "himalayanowhere@gmail.com",
+        to: "rewildingfertilecrescent@gmail.com",
         substitutions: {
           textMessage: text,
           htmlMessage: html
