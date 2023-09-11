@@ -70,7 +70,46 @@ export default function TreePlanting() {
                 <p className="mt-6 text-lg leading-8 text-gray-600">Please fill the form below to sponsor a grove of trees. Please feel free to add your words and images ( if any ) for the dedication.</p>
                 <p className="mt-6 text-lg leading-8 text-gray-600">Payment method : bank transfer</p>
                 <p className="mt-6 text-lg leading-8 text-gray-600">
+                  <b>The information below is for bank transfer from the UK</b>
+                </p>
+                <p className="mt-6 text-lg leading-8 text-gray-600">
                   Trees for Hope, Rewilding the Fertile Crescent<br></br>Account : 20673701<br></br>​Sort Code : 16 58 10
+                </p>
+                <p className="mt-6 text-lg leading-8 text-gray-600">
+                  <b>The below is the info for our bank account for international transfer.</b>
+                </p>
+                <p className="mt-6 text-lg leading-8 text-gray-600">
+                  <span className="text-blue-600">Beneficiary Account Name:</span>
+                  <br></br>Triodos Bank
+                </p>
+                <p className="mt-6 text-lg leading-8 text-gray-600">
+                  <span className="text-blue-600">Beneficiary address:</span>
+                  <br></br>Triodos Bank<br></br>Deanery Road<br></br>Bristol<br></br>BS1 5AS
+                </p>
+                <p className="mt-6 text-lg leading-8 text-gray-600">Bank Name: National Westminster Bank Plc</p>
+                <p className="mt-6 text-lg leading-8 text-gray-600">
+                  <span className="text-blue-600">Bank Address:</span>
+                  <br></br>250 Bishopsgate<br></br>London<br></br>EC2M 4AA
+                </p>
+                <p className="mt-6 text-lg leading-8 text-gray-600">
+                  <span className="text-blue-600">Sort Code:</span>
+                  <br></br>60-00-04
+                </p>
+                <p className="mt-6 text-lg leading-8 text-gray-600">
+                  <span className="text-blue-600">BIC:</span>
+                  <br></br>NWBKGB2L
+                </p>
+                <p className="mt-6 text-lg leading-8 text-gray-600">
+                  <span className="text-blue-600">IBAN:</span>
+                  <br></br>GB98NWBK60000410018573
+                </p>
+                <p className="mt-6 text-lg leading-8 text-gray-600">
+                  <span className="text-blue-600">Reference:</span>
+                  <br></br>(Your Triodos account number and account name e.g. 12345678 A N Example)
+                </p>
+                <p className="mt-6 text-lg leading-8 text-gray-600">Please ensure you provide all of the above details, especially the reference or the deposit may not reach your Triodos account.</p>
+                <p className="mt-6 text-lg leading-8 text-gray-600">
+                  Much gratitude,<br></br>Pupak
                 </p>
                 <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center"></div>
                 <div className="mt-80px mt-20 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:pl-0">
