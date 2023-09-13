@@ -45,7 +45,7 @@ export default function Index({ preview, allPosts }) {
             <LogoCloud />
             {/* Team section */}
             <Team />
-            {/* {morePosts.length > 0 && <MoreStories posts={morePosts} />} */}
+            {morePosts.length > 0 && <MoreStories posts={morePosts} />}
           </main>
         </div>
       </Layout>
@@ -56,6 +56,8 @@ export default function Index({ preview, allPosts }) {
 export async function getStaticProps({ preview = false }) {
   const allPosts = (await getAllPostsForHome(preview)) ?? [];
   return {
-    props: { preview, allPosts }
+    props: { preview, allPosts },
+    revalidate: 30,
+    notFound: !allPosts
   };
 }
