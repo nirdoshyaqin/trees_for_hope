@@ -54,8 +54,8 @@ export default function Index({ preview, allPosts }) {
 }
 
 export async function getStaticProps({ preview = false }) {
-  fallback: blocking;
   const allPosts = (await getAllPostsForHome(preview)) ?? [];
+  fallback: blocking;
   return {
     props: { preview, allPosts }
   };
