@@ -1,3 +1,9 @@
+import Image from "next/image";
+
+const imageLoader = ({ src, width, quality }) => {
+  return `${src}?w=${width}&q=${quality || 75}`;
+};
+
 function Vision() {
   return (
     <>
@@ -12,17 +18,17 @@ function Vision() {
             </div>
             <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
               <div className="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
-                <img src="top/top_vision_01.jpg" alt="" className="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover" />
+                <Image loader={imageLoader} src="top/top_vision_01.jpg" alt="Trees for Hope Hero Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover" width={592} height={422} />
               </div>
               <div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
                 <div className="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
-                  <img src="top/top_hero_11.jpeg" alt="" className="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover" />
+                  <Image loader={imageLoader} src="top/top_hero_11.jpeg" alt="Trees for Hope Vision Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover" width={384} height={288} />
                 </div>
                 <div className="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
-                  <img src="top/top_vision_04.jpg" alt="" className="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover" />
+                  <Image loader={imageLoader} src="top/top_vision_04.jpg" alt="Trees for Hope Vision Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover" width={384} height={288} />
                 </div>
                 <div className="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
-                  <img src="top/top_vision_03.jpg" alt="" className="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover" />
+                  <Image loader={imageLoader} src="top/top_vision_03.jpg" alt="Trees for Hope Vision Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover" width={384} height={288} />
                 </div>
               </div>
             </div>
