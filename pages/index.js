@@ -12,6 +12,10 @@ import Vision from "@/components/Vision";
 import LogoCloud from "@/components/LogoCloud";
 import Team from "@/components/Team";
 
+const imageLoader = ({ src, width, quality }) => {
+  return `${src}?w=${width}&q=${quality || 75}`;
+};
+
 export default function Index({ preview, allPosts }) {
   const heroPost = allPosts[0];
   const morePosts = allPosts.slice(1);
@@ -37,7 +41,7 @@ export default function Index({ preview, allPosts }) {
             <Vision />
             {/* Image section */}
             <div className="mt-32 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8">
-              <img src="top/top_vision_05.jpg" alt="" className="w-full object-cover xl:rounded-3xl" />
+              <Image loader={imageLoader} src="top/top_vision_05.jpg" alt="" className="w-full object-cover xl:rounded-3xl" width={1200} height={900} />
             </div>
             {/* Mission section */}
             <Mission />

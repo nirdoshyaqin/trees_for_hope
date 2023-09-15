@@ -4,6 +4,10 @@ import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import Image from "next/image";
 
+const imageLoader = ({ src, width, quality }) => {
+  return `${src}?w=${width}&q=${quality || 75}`;
+};
+
 const navigation = [
   { name: "Message", href: "/message" },
   { name: "History", href: "/history" },
@@ -25,7 +29,7 @@ function Header() {
           <div className="flex lg:flex-1">
             <Link href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img className="h-24 w-auto" src="/treesforhope_logo.png" alt="" />
+              <Image loader={imageLoader} className="h-24 w-auto" src="/treesforhope_logo.png" alt="" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width={76} height={96} />
             </Link>
           </div>
           <div className="flex lg:hidden">
