@@ -1,3 +1,9 @@
+import Image from "next/image";
+
+const imageLoader = ({ src, width, quality }) => {
+  return `${src}?w=${width}&q=${quality || 75}`;
+};
+
 function Team() {
   const people = [
     {
@@ -52,7 +58,8 @@ function Team() {
           <ul role="list" className="-mt-12 space-y-12 divide-y divide-gray-200 xl:col-span-3">
             {people.map(person => (
               <li key={person.name} className="flex flex-col gap-10 pt-12 sm:flex-row">
-                <img className="aspect-[4/5] w-52 flex-none rounded-2xl object-cover" src={person.imageUrl} alt="" />
+                <Image loader={imageLoader} className="aspect-[4/5] w-52 flex-none rounded-2xl object-cover" src={person.imageUrl} alt="" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width={208} height={256} />
+
                 <div className="max-w-xl flex-auto">
                   <h3 className="text-lg font-semibold leading-8 tracking-tight text-gray-900">{person.name}</h3>
                   <p className="text-base leading-7 text-gray-600">{person.role}</p>

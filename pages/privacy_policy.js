@@ -11,6 +11,10 @@ import Footer from "@/components/footer";
 
 // const inter = Inter({ subsets: ["latin"] });
 
+const imageLoader = ({ src, width, quality }) => {
+  return `${src}?w=${width}&q=${quality || 75}`;
+};
+
 export default function PrivacyPolicy() {
   return (
     <>
@@ -55,7 +59,7 @@ export default function PrivacyPolicy() {
                   <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Privacy Policy for Trees for Hope</h1>
                 </div>
                 <figure class="mt-10 flex justify-center">
-                  <img class="sm:h-5/6 sm:w-5/6 rounded-xl bg-gray-50 object-cover" src="/privacy_policy/privacy_policy_01.jpg" alt="" />
+                  <Image loader={imageLoader} src="/privacy_policy/privacy_policy_01.jpg" alt="Trees for Hope Privacy Policy Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="sm:h-5/6 sm:w-5/6 rounded-xl bg-gray-50 object-cover" width={586} height={667} priority={true} />
                 </figure>
               </div>
               <p className="mt-6 text-lg leading-8">At Trees for Hope, accessible from https://www.treesforhope.earth/, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Trees for Hope and how we use it.</p>

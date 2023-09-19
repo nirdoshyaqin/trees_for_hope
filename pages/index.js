@@ -41,7 +41,7 @@ export default function Index({ preview, allPosts }) {
             <Vision />
             {/* Image section */}
             <div className="mt-32 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8">
-              <Image loader={imageLoader} src="top/top_vision_05.jpg" alt="" className="w-full object-cover xl:rounded-3xl" width={1200} height={900} />
+              <Image loader={imageLoader} src="top/top_vision_05.jpg" alt="" className="w-full object-cover xl:rounded-3xl" width={1200} height={900} priority={true} />
             </div>
             {/* Mission section */}
             <Mission />
