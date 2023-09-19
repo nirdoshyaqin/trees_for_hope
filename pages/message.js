@@ -62,7 +62,7 @@ export default function Message() {
                 </div>
               </div>
               <figure className="mt-10 flex justify-center">
-                <Image loader={imageLoader} className="sm:h-3/6 sm:w-3/6 rounded-xl bg-gray-50 object-cover" src="/pupak.jpg" alt="Pupak Haghighi Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width={384} height={441} priority={true} />
+                <Image loader={imageLoader} className="sm:h-3/6 sm:w-3/6 rounded-xl bg-gray-50 object-cover" src="/pupak.jpg" alt="Pupak Haghighi Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width={384} height={441} />
                 {/* <figcaption className="mt-4 flex gap-x-2 text-sm leading-6 text-gray-500">
                   <InformationCircleIcon className="mt-0.5 h-5 w-5 flex-none text-gray-300" aria-hidden="true" />
                   Faucibus commodo massa rhoncus, volutpat.
@@ -130,7 +130,7 @@ export default function Message() {
           </div>{" "}
           {/* Image section */}
           <div className="mt-16 sm:mt-20 xl:mx-auto xl:max-w-7xl xl:px-8">
-            <Image loader={imageLoader} className="aspect-[5/2] w-full object-cover xl:rounded-3xl" src="/tree_planting/tree_planting_01.jpg" alt="Pupak Haghighi Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width={1216} height={486} priority={true} />
+            <Image loader={imageLoader} className="aspect-[5/2] w-full object-cover xl:rounded-3xl" src="/tree_planting/tree_planting_01.jpg" alt="Pupak Haghighi Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width={1216} height={486} />
           </div>
           {/* Vision section */}
           <Vision />

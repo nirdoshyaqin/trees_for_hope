@@ -110,7 +110,7 @@ export default function Team() {
               <ul role="list" className="-mt-12 space-y-12 divide-y divide-gray-200 xl:col-span-3">
                 {people.map(person => (
                   <li key={person.name} className="flex flex-col gap-10 pt-12 sm:flex-row">
-                    <Image loader={imageLoader} izes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="sm:h-64 sm:w-52 flex-none rounded-2xl object-cover" src={person.imageUrl} alt={person.name} width={208} height={268} priority={true} />
+                    <Image loader={imageLoader} izes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="sm:h-64 sm:w-52 flex-none rounded-2xl object-cover" src={person.imageUrl} alt={person.name} width={208} height={268} />
 
                     <div className="max-w-xl flex-auto">
                       <h3 className="text-lg font-semibold leading-8 tracking-tight text-gray-900">{person.name}</h3>
@@ -173,7 +173,7 @@ export default function Team() {
 
           {/* Image section */}
           <div className="mt-16 sm:mt-20 xl:mx-auto xl:max-w-7xl xl:px-8">
-            <Image loader={imageLoader} src="/tree_planting/tree_planting_09.jpg" alt="" className="aspect-[5/2] w-full object-cover xl:rounded-3xl" width={1204} height={481} priority={true} />
+            <Image loader={imageLoader} src="/tree_planting/tree_planting_09.jpg" alt="" className="aspect-[5/2] w-full object-cover xl:rounded-3xl" width={1204} height={481} />
           </div>
           {/* Vision section */}
           <Vision />

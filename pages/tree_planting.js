@@ -119,29 +119,29 @@ export default function TreePlanting() {
                 <div className="mt-80px mt-20 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:pl-0">
                   <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
                     <div className="relative">
-                      <Image loader={imageLoader} src="/tree_planting/tree_planting_01.jpg" alt="Trees for Hope Planting Trees Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" width={704} height={530} priority={true} />
+                      <Image loader={imageLoader} src="/tree_planting/tree_planting_01.jpg" alt="Trees for Hope Planting Trees Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" width={704} height={530} />
 
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                     </div>
                   </div>
                   <div className="mr-auto w-44 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36">
                     <div className="relative">
-                      <Image loader={imageLoader} src="/tree_planting/tree_planting_08.jpg" alt="Trees for Hope Planting Trees Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" width={176} height={264} priority={true} />
+                      <Image loader={imageLoader} src="/tree_planting/tree_planting_08.jpg" alt="Trees for Hope Planting Trees Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" width={176} height={264} />
 
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                     </div>
                     <div className="relative">
-                      <Image loader={imageLoader} src="/tree_planting/tree_planting_04.jpg" alt="Trees for Hope Planting Trees Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" width={176} height={264} priority={true} />
+                      <Image loader={imageLoader} src="/tree_planting/tree_planting_04.jpg" alt="Trees for Hope Planting Trees Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" width={176} height={264} />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                     </div>
                   </div>
                   <div className="w-44 flex-none space-y-8 pt-32 sm:pt-0">
                     <div className="relative">
-                      <Image loader={imageLoader} src="/tree_planting/tree_planting_06.jpg" alt="Trees for Hope Planting Trees Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" width={176} height={264} priority={true} />
+                      <Image loader={imageLoader} src="/tree_planting/tree_planting_06.jpg" alt="Trees for Hope Planting Trees Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" width={176} height={264} />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                     </div>
                     <div className="relative">
-                      <Image loader={imageLoader} src="/tree_planting/tree_planting_05.jpg" alt="Trees for Hope Planting Trees Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" width={176} height={264} priority={true} />
+                      <Image loader={imageLoader} src="/tree_planting/tree_planting_05.jpg" alt="Trees for Hope Planting Trees Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" width={176} height={264} />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                     </div>
                   </div>

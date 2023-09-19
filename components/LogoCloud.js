@@ -24,15 +24,15 @@ function LogoCloud() {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <h2 className="text-center text-lg font-semibold leading-8 text-gray-900">Collaborating Companies and Funding Organizations</h2>
           <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
-            <Image loader={imageLoader} src="/logo/logo_gaia_education.png" alt="gaia education logo" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="col-span-2 max-h-12 w-full object-contain lg:col-span-1" width={158} height={48} priority={true} />
+            <Image loader={imageLoader} src="/logo/logo_gaia_education.png" alt="gaia education logo" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="col-span-2 max-h-12 w-full object-contain lg:col-span-1" width={158} height={48} />
 
-            <Image loader={imageLoader} src="/logo/logo_cana_foundation_red_horses.webp" alt="Cana Foundation logo" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="col-span-2 max-h-12 w-full object-contain lg:col-span-1" width={158} height={48} priority={true} />
+            <Image loader={imageLoader} src="/logo/logo_cana_foundation_red_horses.webp" alt="Cana Foundation logo" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="col-span-2 max-h-12 w-full object-contain lg:col-span-1" width={158} height={48} />
 
-            <Image loader={imageLoader} src="/logo/logo_lush.png" alt="Lush Logo" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="col-span-2 max-h-12 w-full object-contain lg:col-span-1" width={158} height={48} priority={true} />
+            <Image loader={imageLoader} src="/logo/logo_lush.png" alt="Lush Logo" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="col-span-2 max-h-12 w-full object-contain lg:col-span-1" width={158} height={48} />
 
-            <Image loader={imageLoader} src="/logo/logo_ecosystem_restoration_communities.png" alt="Ecosystem Restoration Communities Logo" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="col-span-2 max-h-12 w-full object-contain lg:col-span-1" width={158} height={48} priority={true} />
+            <Image loader={imageLoader} src="/logo/logo_ecosystem_restoration_communities.png" alt="Ecosystem Restoration Communities Logo" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="col-span-2 max-h-12 w-full object-contain lg:col-span-1" width={158} height={48} />
 
-            <Image loader={imageLoader} src="/logo/global-ecovillage-network-logo.png" alt="Global Ecovillage Network Logo" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="col-span-2 max-h-12 w-full object-contain lg:col-span-1" width={158} height={48} priority={true} />
+            <Image loader={imageLoader} src="/logo/global-ecovillage-network-logo.png" alt="Global Ecovillage Network Logo" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="col-span-2 max-h-12 w-full object-contain lg:col-span-1" width={158} height={48} />
           </div>
         </div>
       </div>

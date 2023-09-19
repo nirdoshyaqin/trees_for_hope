@@ -124,13 +124,13 @@ export default function Message() {
                   </div>
                   <div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
                     <div className="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
-                      <Image loader={imageLoader} className="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover" src="/history/history_07.jpg" alt="Trees for Hope History Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width={384} height={422} priority={true} />
+                      <Image loader={imageLoader} className="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover" src="/history/history_07.jpg" alt="Trees for Hope History Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width={384} height={422} />
                     </div>
                     <div className="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
-                      <Image loader={imageLoader} className="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover" src="/history/history_03.jpg" alt="Trees for Hope History Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width={592} height={422} priority={true} />
+                      <Image loader={imageLoader} className="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover" src="/history/history_03.jpg" alt="Trees for Hope History Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width={592} height={422} />
                     </div>
                     <div className="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
-                      <Image loader={imageLoader} className="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover" src="/history/history_08.jpg" alt="Trees for Hope History Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width={384} height={288} priority={true} />
+                      <Image loader={imageLoader} className="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover" src="/history/history_08.jpg" alt="Trees for Hope History Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width={384} height={288} />
                     </div>
                   </div>
                 </div>
@@ -157,31 +157,31 @@ export default function Message() {
             <div className="mt-80px mt-20 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:pl-0">
               <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
                 <div className="relative">
-                  <Image loader={imageLoader} className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" src="/tree_planting/tree_planting_01.jpg" alt="Trees for Hope History Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width={176} height={264} priority={true} />
+                  <Image loader={imageLoader} className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" src="/tree_planting/tree_planting_01.jpg" alt="Trees for Hope History Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width={176} height={264} />
 
                   <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                 </div>
               </div>
               <div className="mr-auto w-44 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36">
                 <div className="relative">
-                  <Image loader={imageLoader} className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" src="/history/history_11.jpg" alt="Trees for Hope History Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width={176} height={264} priority={true} />
+                  <Image loader={imageLoader} className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" src="/history/history_11.jpg" alt="Trees for Hope History Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width={176} height={264} />
 
                   <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                 </div>
                 <div className="relative">
-                  <Image loader={imageLoader} className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" src="/history/history_01.jpg" alt="Trees for Hope History Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width={176} height={264} priority={true} />
+                  <Image loader={imageLoader} className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" src="/history/history_01.jpg" alt="Trees for Hope History Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width={176} height={264} />
 
                   <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                 </div>
               </div>
               <div className="w-44 flex-none space-y-8 pt-32 sm:pt-0">
                 <div className="relative">
-                  <Image loader={imageLoader} className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" src="/history/history_12.jpg" alt="Trees for Hope History Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width={176} height={264} priority={true} />
+                  <Image loader={imageLoader} className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" src="/history/history_12.jpg" alt="Trees for Hope History Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width={176} height={264} />
 
                   <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                 </div>
                 <div className="relative">
-                  <Image loader={imageLoader} className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" src="/history/history_09.jpg" alt="Trees for Hope History Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width={176} height={264} priority={true} />
+                  <Image loader={imageLoader} className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" src="/history/history_09.jpg" alt="Trees for Hope History Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width={176} height={264} />
                   <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                 </div>
               </div>
