@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
   images: {
-    loader: 'custom',
-  },
-}
+    loader: "custom",
+    minimumCacheTTL: 31536000
+  }
+};
