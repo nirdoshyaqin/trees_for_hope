@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 // import { Inter } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
 import { useState } from "react";
@@ -113,7 +114,12 @@ export default function PrivacyPolicy() {
               <p className="mt-6 text-lg leading-8">Trees for Hope does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.</p>
               <p className="mt-6 text-lg leading-8">Our Privacy Policy was created with the help of the Privacy Policy Generator.</p>
               <h3 className="mt-10 text-xl font-bold tracking-tight text-gray-900">Contact Us</h3>
-              <p className="mt-6 text-lg leading-8">If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us.</p>
+              <p className="mt-6 text-lg leading-8">
+                If you have any questions or suggestions about our Privacy Policy, do not hesitate to{" "}
+                <Link href="/contact" className="text-indigo-600 font-semibold">
+                  contact us.
+                </Link>
+              </p>
             </div>
           </div>{" "}
         </main>
