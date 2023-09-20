@@ -58,7 +58,7 @@ export default function Archive() {
                       <span className="text-indigo-600 font-bold">Community and Rainforest Engagement Week (CREW)</span>
                       <br></br>15-21 April, 2023 Glenuig<br></br>A Trees for Hope Report April 2023 By Pupak Haghighi
                     </p>
-                    <a className="inline-block" href="/pdf/1st-CREW-Week-Report-April2023.pdf" download="1st-CREW-Week-Report-April2023.pdf">
+                    <a className="inline-block" href="/pdf/1st-CREW-Week-Report-April2023_compressed.pdf" download="1st-CREW-Week-Report-April2023_compressed.pdf">
                       <Image className="mb-2" loader={imageLoader} src="/pdf-icon.png" alt="pdf icon" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width={128} height={128} />
                       click pdf icon to download
                     </a>
@@ -66,7 +66,7 @@ export default function Archive() {
                       <span className="text-indigo-600 font-bold">Community & Rainforest Engagement Week II (CREW)</span>
                       <br></br>13-19 May 2023, Glenuig<br></br>A Trees for Hope Report April 2023 By Pupak Haghighi
                     </p>
-                    <a className="inline-block" href="/pdf/CREW-week2-May2023.pdf" download="1st-CREW-Week-Report-April2023.pdf">
+                    <a className="inline-block" href="/pdf/CREW-week2-May2023.pdf" download="CREW-week2-May2023.pdf">
                       <Image className="mb-2" loader={imageLoader} src="/pdf-icon.png" alt="pdf icon" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width={128} height={128} />
                       click pdf icon to download
                     </a>
