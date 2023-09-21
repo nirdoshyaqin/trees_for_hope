@@ -60,7 +60,7 @@ export default function Archive() {
                     </p>
                     <a className="inline-block" href="/pdf/1st-CREW-Week-Report-April2023_compressed.pdf" download="1st-CREW-Week-Report-April2023_compressed.pdf">
                       <Image className="mb-2" loader={imageLoader} src="/pdf-icon.png" alt="pdf icon" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width={128} height={128} />
-                      click pdf icon to download(6.7MB)
+                      click pdf icon to download (6.7MB)
                     </a>
                     <p className="mt-10 mb-0 text-lg leading-8 text-gray-600">
                       <span className="text-indigo-600 font-bold">Community & Rainforest Engagement Week II (CREW)</span>
@@ -68,7 +68,7 @@ export default function Archive() {
                     </p>
                     <a className="inline-block" href="/pdf/CREW-week2-May2023.pdf" download="CREW-week2-May2023.pdf">
                       <Image className="mb-2" loader={imageLoader} src="/pdf-icon.png" alt="pdf icon" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width={128} height={128} />
-                      click pdf icon to download(5.1MB)
+                      click pdf icon to download (5.1MB)
                     </a>
                   </div>
                   <div className="mt-24 flex justify-end gap-8 sm:justify-start sm:pl-20 lg:pl-0">
