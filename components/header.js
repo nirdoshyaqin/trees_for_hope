@@ -1,8 +1,10 @@
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Dialog } from "@headlessui/react";
 import Image from "next/image";
+
+import { gsap } from "gsap";
 
 const imageLoader = ({ src, width, quality }) => {
   return `${src}?w=${width}&q=${quality || 75}`;
@@ -20,7 +22,27 @@ const navigation = [
 ];
 
 function Header() {
+  
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const mainMenuEnter = (e, name) => {
+
+    let childmenu = e.target.parentNode.querySelector(".childmenu");
+    if( childmenu ){
+      const childmenu = e.target.parentNode.querySelector(".childmenu");
+      gsap.to( childmenu, {autoAlpha: 1, duration: 0.5, ease:"power2.out"});
+    }
+  }
+  const mainMenuLeave = (e, name) => {
+    gsap.to( ".childmenu", {autoAlpha: 0, duration: 0.5, ease:"power2.out"});
+  }
+
+  useEffect(() => {
+    // 最初は非表示
+    gsap.set(".childmenu", {autoAlpha: 0});
+  }, []);
+
+
   return (
     <>
       {/* Header */}
@@ -39,10 +61,19 @@ function Header() {
             </button>
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
-            {navigation.map(item => (
-              <Link key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-gray-900">
-                {item.name}
-              </Link>
+            {navigation.map( (item, index) => (
+              <div key={item.name} className="relative" onMouseLeave={ (e) => {mainMenuLeave(e, item.name)} }>
+                <Link href={item.href} className="text-sm font-semibold leading-6 text-gray-900" onMouseEnter={ (e) => {mainMenuEnter(e, item.name)} } >
+                  {item.name}
+                </Link>
+                {item.childmenu?.map(child => (
+                  <div key={child.name} className="invisible childmenu w-[150px] absolute inset-x-0 top-6.5">
+                    <Link href={child.href} className="text-sm font-semibold leading-6 text-gray-900">
+                      {child.name}
+                    </Link>
+                  </div>
+                ))}
+              </div>
             ))}
           </div>
           {/* <div className="hidden lg:flex lg:flex-1 lg:justify-end">
@@ -68,9 +99,18 @@ function Header() {
               <div className="-my-6 divide-y divide-gray-500/10">
                 <div className="space-y-2 py-6">
                   {navigation.map(item => (
-                    <Link key={item.name} href={item.href} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
-                      {item.name}
-                    </Link>
+                    <div key={item.name}>
+                      <Link href={item.href} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                        {item.name}
+                      </Link>
+                      {item.childmenu?.map(child => (
+                        <div key={child.name} className="pl-2" aria-hidden="true">
+                          <Link href={child.href} className="text-sm font-semibold leading-6 text-gray-900">
+                            - {child.name}
+                          </Link>
+                        </div>
+                      ))}
+                    </div>
                   ))}
                 </div>
                 {/* <div className="py-6">
