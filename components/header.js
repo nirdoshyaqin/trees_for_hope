@@ -42,7 +42,6 @@ function Header() {
     gsap.set(".childmenu", {autoAlpha: 0});
   }, []);
 
-
   return (
     <>
       {/* Header */}
@@ -66,13 +65,17 @@ function Header() {
                 <Link href={item.href} className="text-sm font-semibold leading-6 text-gray-900" onMouseEnter={ (e) => {mainMenuEnter(e, item.name)} } >
                   {item.name}
                 </Link>
-                {item.childmenu?.map(child => (
-                  <div key={child.name} className="invisible childmenu w-[150px] absolute inset-x-0 top-6.5">
-                    <Link href={child.href} className="text-sm font-semibold leading-6 text-gray-900">
-                      {child.name}
-                    </Link>
-                  </div>
-                ))}
+
+                { ( item.childmenu ) &&
+                    <div className="invisible childmenu w-[150px] absolute inset-x-0 top-6.5 pt-1.5">
+                      {item.childmenu?.map(child => (
+                        <Link key={child.name} href={child.href} className="block text-sm font-semibold leading-6 text-gray-900">
+                          {child.name}
+                        </Link>
+                      ))}
+                    </div>
+                }
+
               </div>
             ))}
           </div>
