@@ -14,7 +14,7 @@ const navigation = [
   { name: "Message", href: "/message" },
   { name: "History", href: "/history" },
   { name: "Mission", href: "/mission" },
-  { name: "Projects", href: "/projects", childmenu: [{ name: "Atlantic Rainforest", href: "/projects/atlantic-rainforest" }] },
+  { name: "Projects", href: "/projects", childmenu: [{ name: "Atlantic Rainforest", href: "/projects/atlantic_rainforest" }] },
   { name: "Team", href: "/team" },
   { name: "Planting Trees", href: "/tree_planting" },
   { name: "Contact", href: "/contact" },
