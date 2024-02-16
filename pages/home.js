@@ -13,9 +13,7 @@ import Mission from "@/components/Mission";
 import Vision from "@/components/Vision";
 import LogoCloud from "@/components/LogoCloud";
 import Team from "@/components/Team";
-import Blog from "../components/Blog";
-
-// const inter = Inter({ subsets: ["latin"] });
+import Blog from "@/components/Blog";
 
 const values = [
   {
