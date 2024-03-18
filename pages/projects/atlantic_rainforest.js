@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 // import { Inter } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
 import { useState } from "react";
@@ -63,6 +64,8 @@ export default function Project() {
                   <div className="prose w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
                     <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Reviving the Atlantic Rainforest</h1>
                     <h2>Community and Rainforests Engagement Weeks (CREW)</h2>
+                    <h2>CREW, Rainforest Action, Glenuig. 8-15, 22-29 June, for local volunteers</h2>
+
                     <div className="mt-0px mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
                       <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
                         <div className="relative">
@@ -92,11 +95,11 @@ export default function Project() {
                         </div>
                       </div>
                     </div>
-                    <p className="mt-6 text-lg leading-8 text-gray-600">We will be engaging with the community in Glenuig, Moidart to revive the Atlantic Rainforests. A tiny remnant of the ancient oak woodland still stands here. However this fragile ecosystem is endangered by three threats : overgrazing deer, rhododendron invasion, community disengagement. </p>
-                    <p className="mt-6 text-lg leading-8 text-gray-600">To catalyse the return of the Atlantic Rainforests, and to embody a rewilding project, Trees for Hope is engaging with the community to assist in their efforts to create the conditions for a vibrant ecosystem to exist. </p>
-                    <p className="mt-6 text-lg leading-8 text-gray-600">In our Community and Rainforests Engagement Weeks, we invite people from the community to get involved in rhododendron removal, alongside our volunteers from other communities and participants from the Fertile Crescent. </p>
-                    <p className="mt-6 text-lg leading-8 text-gray-600">As well as rhododendron removal, each participant will have opportunities to harmonise with nature. A greater sense of interconnection with nature and community may be realised when we engage to help nature and ourselves recover from damages of the past, and turn towards our sense of wholeness.</p>
-                    <p className="mt-6 text-lg leading-8 text-gray-600">We intend our weeks of Engagement to be efficient, fun, and fulfilling. We hope our weeks will spark new connections and encourage growth. By engaging with nature, communities, and people from other parts of the world, we are creating decisive opportunities for transformation, connection, and healing.</p>
+                    <p className="mt-6 text-lg leading-8 text-gray-600">We will be engaging with the community in Glenuig, Moidart on the west coast of Scotland to revive the Atlantic Rainforest. A tiny remnant of the ancient oak woodland still stands here. However this fragile ecosystem is endangered by two threats: overgrazing by deer and invasive non-native rhododendrons.</p>
+                    <p className="mt-6 text-lg leading-8 text-gray-600">To catalyse the return of the Atlantic Rainforest, and to embody a rewilding project, Trees for Hope is engaging with the community to assist in their efforts to create the conditions for a vibrant ecosystem to exist. </p>
+                    <p className="mt-6 text-lg leading-8 text-gray-600">In our weeks, our work is concentrated on removing rhododendrons and building tree-guards to protect the young saplings in the forest. </p>
+                    <p className="mt-6 text-lg leading-8 text-gray-600">As well as external rewilding activities, each participant will have opportunities to harmonise with nature. A greater sense of interconnection with nature and community may be realised when we engage to help nature and ourselves recover from damages of the past, and turn towards our sense of wholeness.</p>
+                    <p className="mt-6 text-lg leading-8 text-gray-600">We intend our weeks of engagement to be efficient, fun, and fulfilling. We hope our weeks will spark new connections and encourage growth. By engaging with nature, communities, and people from other parts of the world, we are creating decisive opportunities for transformation, connection, and healing. </p>
                     <h3>What can you expect from this week?</h3>
                     <ul>
                       <li>Experiential, direct connection with nature.​</li>
@@ -104,35 +107,66 @@ export default function Project() {
                       <li>Joining a work-force to help the recovery of the Atlantic Rainforest.</li>
                       <li>Meeting and connecting with other people who care as much about nature, and are getting engaged, from the community in Moidart and elsewhere.</li>
                     </ul>
-                    <h3>Food . Lodging . Price</h3>
-                    <p className="mt-6 text-lg leading-8 text-gray-600">The lodging for this week is at Viking Cottage. A comfortable base with stunning views of the sea-loch. Viking Cottage can accommodate 5 single people at a time. We can accommodate two couples, in which case our lodging capacity increases to 7 people. Due to limited space, it is important that you communicate with us to book your place.</p>
-                    <p className="mt-6 text-lg leading-8 text-gray-600">We will provide the ingredients, and will share the cooking of our meals together. As our community forms and take shape, we will self-organise around our shared space and living chores.</p>
-                    <p className="mt-6 text-lg leading-8 text-gray-600">Although our preference is for you to be part of the whole week, you can come on any of our work-days and stay for as long, or as short as you wish.</p>
-                    <p className="mt-6 text-lg leading-8 text-gray-600">Our suggested price is £50/ night / person, which covers food and accommodation. You can pay this by bank transfer or cash during the week.</p>
+                    <h3>Lodging, Food, and Transport</h3>
+                    <p className="mt-6 text-lg leading-8 text-gray-600">We will be camping for both weeks in June by the Community Hall in Glenuig. We will have access to the lounge and the kitchenette, as well as the shower and toilets there. You need to bring your own tent, bedding, and anything to make you feel 'at home' in a tent.</p>
+                    <p className="mt-6 text-lg leading-8 text-gray-600">
+                      We will share the cooking and home-care for the week as a group. As our community forms and take shape, we will self-organise around our shared space and living chores. We will provide most of the ingredients needed to cook nourishing meals. Our preference is on the side of vegan / vegetarian food.
+                      <br />
+                      We will not provide chocolate and wine. There is a local store in Glenuig where you can buy these items.
+                    </p>
+                    <p className="mt-6 text-lg leading-8 text-gray-600">You need to arrive in Glenuig (map above) on Saturday afternoon. We aim to start the programme at 2 pm. The nearest train station is Lochailort. Sharing lifts may be possible. Our programme will complete on the following Saturday before lunch. </p>
+
+                    <h3>Price</h3>
+
+                    <p className="mt-6 text-lg leading-8 text-gray-600">We have three tiers you can choose from to pay for the week, depending on your financial position.</p>
+                    <p className="mt-6 text-lg leading-8 text-gray-600">1- £40 / night, covering cost of camp and food (£280)</p>
+                    <p className="mt-6 text-lg leading-8 text-gray-600">2- £60 / night, paying for both facilitators (£420)</p>
+                    <p className="mt-6 text-lg leading-8 text-gray-600">3- £80 / night, helping our programme as a whole (£560)</p>
+                    <p className="mt-6 text-lg leading-8 text-gray-600">4- any extra contribution supports participants with low budget</p>
+                    <p className="mt-6 text-lg leading-8 text-gray-600">We recommend you book for the 7 nights. Please pay in advance via bank transfer.</p>
                     <p className="mt-6 text-lg leading-8 text-gray-600">
                       Our bank account: <br></br>Trees for Hope, Rewilding the Fertile Crescent<br></br>Account : 20673701<br></br>Sort Code : 16 58 10
                     </p>
+
                     <h3>Information about the week</h3>
+
                     <p className="mt-6 text-lg leading-8 text-gray-600">We will be a mix of local and guest participants on the programme, joining to create a unique shared experience.</p>
                     <p className="mt-6 text-lg leading-8 text-gray-600">Focalisers:Pupak Haghighi, Alan Watson Featherstone</p>
                     <p className="mt-6 text-lg leading-8 text-gray-600">
                       <b>Guest participants are the people coming from outside of Moidart.</b>
                     </p>
                     <p className="mt-6 text-lg leading-8 text-gray-600">
-                      ----<br></br> * This will be a week of external engagement with nature and direct action, as well as internal reflection and stillness. We will be mostly removing rhododendron, an invasive species. Please come mentally and physically prepared. Appropriate clothing for physical work outdoors is essential.<br></br>​ ———--
+                      ----<br></br> * This will be a week of external engagement with nature and direct action, as well as internal reflection and stillness. We will be building deer exclosure fences, planting native trees, and removing rhododendron, an invasive species. Please come mentally and physically prepared. Appropriate clothing for physical work outdoors is essential.<br></br>​ ———--
                     </p>
                     <p className="mt-6 text-lg leading-8 text-gray-600">
                       <b>Things to bring :</b>
                     </p>
                     <ul>
-                      <li>hot or cold drinking flasks​</li>
+                      <li>Tent and bedding​</li>
+                      <li>Outdoor sandals</li>
+                      <li>Water proof boots</li>
+                      <li>Thermos flask for a hot drink</li>
                       <li>lunch box</li>
-                      <li>rain-gear, including : rain coat, rain pants, gaiters, rain-proof boots</li>
-                      <li>at least two pairs of trousers, two sets of tops, and socks</li>
-                      <li>gardening gloves, if you have them, bring them</li>
-                      <li>swimming suit</li>
+                      <li>rain-gear, including: rain coat, rain pants, gaiters</li>
+                      <li>at least two pairs of trousers, two sets of tops, and thick socks</li>
+                      <li>gardening gloves, if you have them</li>
+                      <li>midge net</li>
+                      <li>（optional : swim suit and diving boots for going to the sea during your leisure time）</li>
                     </ul>
-                    <h3>Register for the week of 6-13 October, 2023</h3>
+                    <h3>Registration for the local residents</h3>
+                    <p className="mt-6 text-lg leading-8 text-gray-600">If you live in Moidart, participating on our weeks are free of charge. We warmly welcome you to our circle for the week. You can join any day, or even a half day of our working weeks. To coordinate our group and work force it will be helpful to us to know which day(s) you are intending to be with us. For this reason we have created the form below for you to tell us your plans. Please take a moment and jot down a few words in the form.</p>
+                    <p className="mt-6 text-lg leading-8 text-gray-600">We also would like to invite you to join us for the opening and the closing of the week, ie, on the Saturday afternoon when we start, and the Saturday morning when we complete the week. This way you will be a part of the circle, even when you can only join for a half day. The circle connects and creates wholeness. By joining us on these two important moments you will help the whole week to be held with you as a part of our group.</p>
+                    <p className="mt-6 text-lg leading-8 text-gray-600">You are also very welcome to join us on Wednesday night for a community dinner. This is a pot luck event. Please bring some food to share. We might spontaneously break out into a Ceilldh, or not.</p>
+                    <h3>Register for the week of 22nd-29th June, 2024</h3>
+                    <p className="mt-6 text-lg leading-8 text-gray-600">We are so excited to be sharing this week with you.</p>
+                    <p className="mt-6 text-lg leading-8 text-gray-600">Please fill the form below. Thank you.</p>
+                    <div className="mt-10">
+                      <Link className="text-white" href="https://bit.ly/3Purrl5" target="_blank">
+                        <button type="button" className="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+                          Living in Moidart
+                        </button>
+                      </Link>
+                    </div>
                     <AtlanticRegistrationFormSG />
                   </div>
                 </div>
