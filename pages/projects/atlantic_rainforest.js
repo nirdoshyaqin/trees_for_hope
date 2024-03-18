@@ -131,7 +131,7 @@ export default function Project() {
                     <h3>Information about the week</h3>
 
                     <p className="mt-6 text-lg leading-8 text-gray-600">We will be a mix of local and guest participants on the programme, joining to create a unique shared experience.</p>
-                    <p className="mt-6 text-lg leading-8 text-gray-600">Focalisers:Pupak Haghighi, Alan Watson Featherstone</p>
+                    <p className="mt-6 text-lg leading-8 text-gray-600">Focalisers: Pupak Haghighi, Alan Watson Featherstone</p>
                     <p className="mt-6 text-lg leading-8 text-gray-600">
                       <b>Guest participants are the people coming from outside of Moidart.</b>
                     </p>
