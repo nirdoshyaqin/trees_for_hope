@@ -16,30 +16,29 @@ const navigation = [
   { name: "Mission", href: "/mission" },
   { name: "Projects", href: "/projects", childmenu: [{ name: "Atlantic Rainforest", href: "/projects/atlantic_rainforest" }] },
   { name: "Team", href: "/team" },
+  { name: "Blog", href: "/posts" },
   { name: "Planting Trees", href: "/tree_planting" },
   { name: "Contact", href: "/contact" },
   { name: "Privacy Policy", href: "/privacy_policy" }
 ];
 
 function Header() {
-  
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const mainMenuEnter = (e, name) => {
-
     let childmenu = e.target.parentNode.querySelector(".childmenu");
-    if( childmenu ){
+    if (childmenu) {
       const childmenu = e.target.parentNode.querySelector(".childmenu");
-      gsap.to( childmenu, {autoAlpha: 1, duration: 0.5, ease:"power2.out"});
+      gsap.to(childmenu, { autoAlpha: 1, duration: 0.5, ease: "power2.out" });
     }
-  }
+  };
   const mainMenuLeave = (e, name) => {
-    gsap.to( ".childmenu", {autoAlpha: 0, duration: 0.5, ease:"power2.out"});
-  }
+    gsap.to(".childmenu", { autoAlpha: 0, duration: 0.5, ease: "power2.out" });
+  };
 
   useEffect(() => {
     // 最初は非表示
-    gsap.set(".childmenu", {autoAlpha: 0});
+    gsap.set(".childmenu", { autoAlpha: 0 });
   }, []);
 
   return (
@@ -60,22 +59,33 @@ function Header() {
             </button>
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
-            {navigation.map( (item, index) => (
-              <div key={item.name} className="relative" onMouseLeave={ (e) => {mainMenuLeave(e, item.name)} }>
-                <Link href={item.href} className="text-sm font-semibold leading-6 text-gray-900" onMouseEnter={ (e) => {mainMenuEnter(e, item.name)} } >
+            {navigation.map((item, index) => (
+              <div
+                key={item.name}
+                className="relative"
+                onMouseLeave={e => {
+                  mainMenuLeave(e, item.name);
+                }}
+              >
+                <Link
+                  href={item.href}
+                  className="text-sm font-semibold leading-6 text-gray-900"
+                  onMouseEnter={e => {
+                    mainMenuEnter(e, item.name);
+                  }}
+                >
                   {item.name}
                 </Link>
 
-                { ( item.childmenu ) &&
-                    <div className="invisible childmenu w-[150px] absolute inset-x-0 top-6.5 pt-1.5">
-                      {item.childmenu?.map(child => (
-                        <Link key={child.name} href={child.href} className="block text-sm font-semibold leading-6 text-gray-900">
-                          {child.name}
-                        </Link>
-                      ))}
-                    </div>
-                }
-
+                {item.childmenu && (
+                  <div className="invisible childmenu w-[150px] absolute inset-x-0 top-6.5 pt-1.5">
+                    {item.childmenu?.map(child => (
+                      <Link key={child.name} href={child.href} className="block text-sm font-semibold leading-6 text-gray-900">
+                        {child.name}
+                      </Link>
+                    ))}
+                  </div>
+                )}
               </div>
             ))}
           </div>

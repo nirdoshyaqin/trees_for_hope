@@ -7,6 +7,7 @@ const footerNavigation = {
     { name: "Mission", href: "/mission" },
     { name: "Projects", href: "/projects" },
     { name: "Team", href: "/team" },
+    { name: "Blog", href: "/posts" },
     { name: "Planting Trees", href: "/tree_planting" },
     { name: "Contact", href: "/contact" },
     { name: "Privacy Policy", href: "/privacy_policy" }

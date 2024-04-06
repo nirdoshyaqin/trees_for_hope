@@ -11,6 +11,7 @@ import Mission from "@/components/Mission";
 import Vision from "@/components/Vision";
 import LogoCloud from "@/components/LogoCloud";
 import Team from "@/components/Team";
+import HeroPost from "@/components/hero-post";
 
 const imageLoader = ({ src, width, quality }) => {
   return `${src}?w=${width}&q=${quality || 75}`;
@@ -31,7 +32,7 @@ export default function Index({ preview, allPosts }) {
         </Head>
         <div className="bg-white">
           <Header />
-          {/* {heroPost && <HeroPost title={heroPost.title} coverImage={heroPost.coverImage} date={heroPost.date} author={heroPost.author} slug={heroPost.slug} excerpt={heroPost.excerpt} />} */}
+          {heroPost && <HeroPost title={heroPost.title} coverImage={heroPost.coverImage} date={heroPost.date} author={heroPost.author} slug={heroPost.slug} excerpt={heroPost.excerpt} />}
           <main className="isolate">
             {/* Hero section */}
             <Hero />
