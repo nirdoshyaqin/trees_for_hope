@@ -1,13 +1,10 @@
-import { useRouter } from "next/router";
 import Head from "next/head";
-import ErrorPage from "next/error";
 import Container from "@/components/container";
 import MoreStories from "@/components/more-stories";
+import HeroPost from "@/components/hero-post";
 import Header from "@/components/header";
 import Layout from "@/components/layout";
 import { getAllPostsForHome } from "@/lib/api";
-import { getAllPostsWithSlug, getPostAndMorePosts } from "@/lib/api";
-import PostTitle from "@/components/post-title";
 
 export default function PostList({ allPosts }) {
   const heroPost = allPosts[0];
@@ -23,7 +20,10 @@ export default function PostList({ allPosts }) {
             <link rel="icon" href="/favicon.ico" />
           </Head>
           <Header />
-          <div className="bg-white py-24 sm:py-32">{morePosts.length > 0 && <MoreStories posts={morePosts} />}</div>
+          <div className="bg-white py-24 sm:py-32">
+            {heroPost && <HeroPost title={heroPost.title} coverImage={heroPost.coverImage} date={heroPost.date} author={heroPost.author} slug={heroPost.slug} excerpt={heroPost.excerpt} />}
+            {morePosts.length > 0 && <MoreStories posts={morePosts} />}
+          </div>
         </Container>
       </Layout>
     </>
