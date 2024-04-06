@@ -32,7 +32,6 @@ export default function Index({ preview, allPosts }) {
         </Head>
         <div className="bg-white">
           <Header />
-          {heroPost && <HeroPost title={heroPost.title} coverImage={heroPost.coverImage} date={heroPost.date} author={heroPost.author} slug={heroPost.slug} excerpt={heroPost.excerpt} />}
           <main className="isolate">
             {/* Hero section */}
             <Hero />
@@ -50,6 +49,7 @@ export default function Index({ preview, allPosts }) {
             <LogoCloud />
             {/* Team section */}
             <Team />
+            {heroPost && <HeroPost title={heroPost.title} coverImage={heroPost.coverImage} date={heroPost.date} author={heroPost.author} slug={heroPost.slug} excerpt={heroPost.excerpt} />}
             {morePosts.length > 0 && <MoreStories posts={morePosts} />}
           </main>
         </div>
