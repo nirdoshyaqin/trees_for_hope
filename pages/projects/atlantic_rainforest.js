@@ -64,7 +64,7 @@ export default function Project() {
                   <div className="prose w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
                     <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Reviving the Atlantic Rainforest</h1>
                     <h2>Community and Rainforests Engagement Weeks (CREW)</h2>
-                    <h2>CREW, Rainforest Action, Glenuig. 8-15, 22-29 June, for local volunteers</h2>
+                    <h2>CREW, Rainforest Action, Glenuig. 8-15, 22-29 June</h2>
 
                     <div className="mt-0px mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
                       <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
