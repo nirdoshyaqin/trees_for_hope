@@ -62,7 +62,7 @@ export default function TreePlanting() {
             <div className="overflow-hidden">
               <div className="mx-auto max-w-3xl px-6 mt-32 sm:mt-40 lg:px-8">
                 <figure className="mt-10 mb-16 flex justify-center">
-                  <img className="rounded-xl bg-gray-50 object-cover" src="/public/hives/alchemising_our_soil_soul_society.png" alt="Alchemising our Soil, Soul, Society" />
+                  <img className="rounded-xl bg-gray-50 object-cover" src="/hives/alchemising_our_soil_soul_society.png" alt="Alchemising our Soil, Soul, Society" />
                   {/* <figcaption className="mt-4 flex gap-x-2 text-sm leading-6 text-gray-500">
                   <InformationCircleIcon className="mt-0.5 h-5 w-5 flex-none text-gray-300" aria-hidden="true" />
                   Faucibus commodo massa rhoncus, volutpat.
