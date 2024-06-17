@@ -78,8 +78,8 @@ export default function TreePlanting() {
                 <p className="mt-6 text-lg leading-8 text-gray-600">Each Hive has a focus on a particular intention related to the well being of the environment, or aspects of culture. It could be to care for a particular place, such as the rainforests by a coast. What emerges as a focus point for each hive are matters whose care makes a significant difference to the lives of those in the hive.</p>
 
                 <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
-                  <figure className="mt-10 mb-16 flex justify-center">
-                    <Image loader={imageLoader} src="/hives/hives_01.png" className="rounded-xl bg-gray-50 object-cover" alt="Hives Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width={768} height={1024} />
+                  <figure className="mt-10 mb-16">
+                    <Image loader={imageLoader} src="/hives/hives_01.png" className="rounded-xl bg-gray-50" alt="Hives Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width={768} height={1024} />
                   </figure>
                 </div>
               </div>
