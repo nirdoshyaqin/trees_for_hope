@@ -11,7 +11,7 @@ import Footer from "@/components/footer";
 import Timeline from "@/components/Timeline";
 import Mission from "@/components/Mission";
 import Vision from "@/components/Vision";
-import LogoCloud from "@/components/LogoCloud";
+// import LogoCloud from "@/components/LogoCloud";
 import Team from "@/components/Team";
 import Blog from "@/components/Blog";
 
