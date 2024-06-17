@@ -77,15 +77,10 @@ export default function TreePlanting() {
                 </ul>
                 <p className="mt-6 text-lg leading-8 text-gray-600">Each Hive has a focus on a particular intention related to the well being of the environment, or aspects of culture. It could be to care for a particular place, such as the rainforests by a coast. What emerges as a focus point for each hive are matters whose care makes a significant difference to the lives of those in the hive.</p>
 
-                <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center"></div>
-                <div className="mt-80px mt-20 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:pl-0">
-                  <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
-                    <div className="relative">
-                      <Image loader={imageLoader} src="/hives/hives_01.png" alt="Hives Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" width={704} height={530} />
-
-                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                    </div>
-                  </div>
+                <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
+                  <figure className="mt-10 mb-16 flex justify-center">
+                    <Image loader={imageLoader} src="/hives/hives_01.png" className="rounded-xl bg-gray-50 object-cover" alt="Hives Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width={768} height={1024} />
+                  </figure>
                 </div>
               </div>
               <TreeRegistrationFormSG />
