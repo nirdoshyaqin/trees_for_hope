@@ -141,6 +141,7 @@ export default function TreeRegistrationFormSG() {
                       <input type="text" name="reason" id="reason" autoComplete="organization" value={reason} placeholder="Trees for Hope" onChange={e => setReason(e.target.value)} className="block w-full rounded-md border-2 md:border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
                     </div>
                   </div>
+
                   <Switch.Group as="div" className="flex gap-x-4 sm:col-span-2">
                     <div className="flex h-6 items-center">
                       <Switch checked={agreed} onChange={setAgreed} className={classNames(agreed ? "bg-indigo-600" : "bg-gray-200", "flex w-8 flex-none cursor-pointer rounded-full p-px ring-1 ring-inset ring-gray-900/5 transition-colors duration-200 ease-in-out focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600")}>

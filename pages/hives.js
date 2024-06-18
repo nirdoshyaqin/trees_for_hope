@@ -5,7 +5,7 @@ import { useState } from "react";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 
-import HivesRegistrationFormSG from "HivesRegistrationFormSG";
+import HivesRegistrationFormSG from "@/components/HivesRegistrationFormSG";
 
 // const inter = Inter({ subsets: ["latin"] });
 
