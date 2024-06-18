@@ -138,7 +138,7 @@ export default function TreeRegistrationFormSG() {
                       Why do you want to join the Hives?
                     </label>
                     <div className="mt-2.5">
-                      <input type="text" name="reason" id="reason" autoComplete="organization" value={reason} placeholder="Trees for Hope" onChange={e => setReason(e.target.value)} className="block w-full rounded-md border-2 md:border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
+                      <input type="text" name="reason" id="reason" autoComplete="organization" value={reason} placeholder="I want to alchemise our Soil, Soul and Society" onChange={e => setReason(e.target.value)} className="block w-full rounded-md border-2 md:border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
                     </div>
                   </div>
 
