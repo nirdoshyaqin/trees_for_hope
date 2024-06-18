@@ -61,7 +61,7 @@ export default function TreePlanting() {
             </div>
             <div className="overflow-hidden">
               <div className="mx-auto max-w-3xl px-6 mt-32 sm:mt-40 lg:px-8">
-                <figure className="mt-10 mb-16 flex justify-center">
+                <figure className="mt-10 mb-6 flex justify-center">
                   <img className="rounded-xl bg-gray-50 object-cover" src="/hives/alchemising_our_soil_soul_society.png" alt="Alchemising our Soil, Soul, Society" />
                   {/* <figcaption className="mt-4 flex gap-x-2 text-sm leading-6 text-gray-500">
                   <InformationCircleIcon className="mt-0.5 h-5 w-5 flex-none text-gray-300" aria-hidden="true" />
@@ -77,11 +77,14 @@ export default function TreePlanting() {
                 </ul>
                 <p className="mt-6 text-lg leading-8 text-gray-600">Each Hive has a focus on a particular intention related to the well being of the environment, or aspects of culture. It could be to care for a particular place, such as the rainforests by a coast. What emerges as a focus point for each hive are matters whose care makes a significant difference to the lives of those in the hive.</p>
                 <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl text-right">کندو های کیمیا : پرورش خاک، جان، جامعه</h1>
-                <p className="mt-6 text-lg leading-8 text-gray-600 text-right">اکنون که به این مرحله از تخریب اجتماعی و محیط زیستی رسیده ایم، برای بسیاری این سؤال مطرح است که آیا اصلا می توان به آینده ای روشن تر و سالم تر در سرزمینمان امید داشت؟ امید و آینده ای روشن تردر دستان ما است. ما سازندگان زمینی التیام یافته وزندگی ای سالم تریم. وارد شدن در راه التیام زمین نیاز به یاران همدل و دانش و شناخت دارد. هدف از تشکل کندو های کیمیاگری برای خاک، جان، و جامعه مان یافتن همراهان، همدلان این راه و نگه داشتن کانون برای پیشرفت در کار است. پیوستن به کندو ها نیاز به نگه داری سه تعهد دارد ساختن خاک، یا تبدیل کردن مواد غیر قابل مصرف به خاک مرغوب به کار بردن دست هایمان برای ساختن زندگی زیباتری ... ساختن کارهای هنری پیشرفت در جهت آرزوهایمان برای از نو ساختن وطن و همیاری به دیگر همکندو های برای تحقق پروژه های شخصی و محیط زیستی</p>
+                <p className="mt-12 text-lg leading-8 text-gray-600 text-right">اکنون که به این مرحله از تخریب اجتماعی و محیط زیستی رسیده ایم، برای بسیاری این سؤال مطرح است که آیا اصلا می توان به آینده ای روشن تر و سالم تر در سرزمینمان امید داشت؟ امید و آینده ای روشن تردر دستان ما است. ما سازندگان زمینی التیام یافته وزندگی ای سالم تریم. وارد شدن در راه التیام زمین نیاز به یاران همدل و دانش و شناخت دارد. هدف از تشکل کندو های کیمیاگری برای خاک، جان، و جامعه مان یافتن همراهان، همدلان این راه و نگه داشتن کانون برای پیشرفت در کار است. پیوستن به کندو ها نیاز به نگه داری سه تعهد دارد ساختن خاک، یا تبدیل کردن مواد غیر قابل مصرف به خاک مرغوب به کار بردن دست هایمان برای ساختن زندگی زیباتری ... ساختن کارهای هنری پیشرفت در جهت آرزوهایمان برای از نو ساختن وطن و همیاری به دیگر همکندو های برای تحقق پروژه های شخصی و محیط زیستی</p>
                 <p className="mt-6 text-lg leading-8 text-gray-600 text-right"> هر کندو شامل ۵-۶ نفر است که با ریتمی مناسب گروه به صورت مدام دیدار و تبادل تجربه خواهند داشت. هر کندو می تواند تمرکز خواصی را قبول کند و در سوی تحقق پروژه ای مشخص پیش رود. تمرکز گروه بر اساس خواست ونیاز گروه انتخاب میشود</p>
                 <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
                   <figure className="mt-10 mb-16">
                     <Image loader={imageLoader} src="/hives/hives_01.png" className="rounded-xl bg-gray-50" alt="Hives Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width={768} height={1024} />
+                  </figure>
+                  <figure className="mt-10 mb-16">
+                    <Image loader={imageLoader} src="/hives/hives_02.png" className="rounded-xl bg-gray-50" alt="Hives Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width={768} height={1024} />
                   </figure>
                 </div>
               </div>
