@@ -1,19 +1,11 @@
 import Head from "next/head";
 import Image from "next/image";
-// import { Inter } from "@next/font/google";
-import styles from "@/styles/Home.module.css";
 import { useState } from "react";
-import { Dialog } from "@headlessui/react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import { CheckCircleIcon, InformationCircleIcon } from "@heroicons/react/20/solid";
+
 import Header from "@/components/header";
 import Footer from "@/components/footer";
-import { ChevronDownIcon } from "@heroicons/react/20/solid";
-import { Switch } from "@headlessui/react";
-import { HubspotForm } from "@/lib/hubspot";
 
-// import TreeRegistrationForm from "@/components/TreeRegistrationForm";
-import TreeRegistrationFormSG from "@/components/TreeRegistrationFormSG";
+import HivesRegistrationFormSG from "HivesRegistrationFormSG";
 
 // const inter = Inter({ subsets: ["latin"] });
 
@@ -88,7 +80,7 @@ export default function TreePlanting() {
                   </figure>
                 </div>
               </div>
-              <TreeRegistrationFormSG />
+              <HivesRegistrationFormSG />
             </div>
           </div>
         </main>{" "}
