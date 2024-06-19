@@ -23,7 +23,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function TreeRegistrationFormSG() {
+export default function HivesRegistrationFormSG() {
   const [agreed, setAgreed] = useState(false);
 
   const router = useRouter();
