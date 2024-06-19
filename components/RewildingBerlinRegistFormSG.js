@@ -42,36 +42,6 @@ export default function RewildingBerlinRegistFormSG() {
     // デフォルトの動作をブロック
     e.preventDefault();
 
-    // let img = document.getElementById("images");
-    // let imgfile = img.files[0];
-
-    // console.log( imgfile );
-
-    // let reader = new FileReader();
-    // reader.onload = function (e) {
-    //   console.log( e.target.result );
-    // }
-    // reader.readAsDataURL(imgfile);
-
-    // 画像の読み込みをawaitで待つ
-    let img = document.getElementById("images");
-    let imgfile = img.files[0];
-    imgfile = await new Promise((resolve, reject) => {
-      let reader = new FileReader();
-      reader.onload = function(e) {
-        resolve(e.target.result);
-      };
-      reader.readAsDataURL(imgfile);
-    });
-    // console.log(imgfile);
-    // data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/....
-
-    // 画像サイズをチェック(10MBまで)
-    if (imgfile.length > 10000000) {
-      alert("The image size is too large. Please select an image of 10MB or less.");
-      return;
-    }
-
     // 内部の送信用APIへ
     const res = await fetch("/api/send", {
       // body: JSON.stringify(e),
