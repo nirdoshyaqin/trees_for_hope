@@ -23,7 +23,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function TreeRegistrationFormSG() {
+export default function RewildingBerlinRegistFormSG() {
   const [agreed, setAgreed] = useState(false);
 
   const router = useRouter();
@@ -129,7 +129,7 @@ export default function TreeRegistrationFormSG() {
                       Last name
                     </label>
                     <div className="mt-2.5">
-                      <input type="text" name="lastname" id="lastname" autoComplete="family-name" value={lastname} placeholder="Haghighi" onChange={e => setLastname(e.target.value)} className="block w-full rounded-md border-2 md:border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
+                      <input type="text" name="lastname" id="lastname" autoComplete="family-name" value={lastname} placeholder="Haghighi" onChange={e => setLastname(e.target.value)} required className="block w-full rounded-md border-2 md:border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
                     </div>
                   </div>
                   <div className="sm:col-span-2">
@@ -146,7 +146,7 @@ export default function TreeRegistrationFormSG() {
                       Phone Number
                     </label>
                     <div className="mt-2.5">
-                      <input type="text" name="phone" id="phone" autoComplete="organization" value={phone} placeholder="" onChange={e => setPhone(e.target.value)} className="block w-full rounded-md border-2 md:border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
+                      <input type="tel" name="phone" id="phone" value={phone} placeholder="" onChange={e => setPhone(e.target.value)} className="block w-full rounded-md border-2 md:border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
                     </div>
                   </div>
                   <div className="sm:col-span-2">
@@ -154,7 +154,7 @@ export default function TreeRegistrationFormSG() {
                       Your date and place of birth
                     </label>
                     <div className="mt-2.5">
-                      <input type="text" name="date_of_birth" id="date_of_birth" autoComplete="organization" value={date_of_birth} placeholder="Trees for Hope" onChange={e => setDate_of_birth(e.target.value)} className="block w-full rounded-md border-2 md:border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
+                      <input type="text" name="date_of_birth" id="date_of_birth" value={date_of_birth} placeholder="1980.04.20" onChange={e => setDate_of_birth(e.target.value)} className="block w-full rounded-md border-2 md:border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
                     </div>
                   </div>
                   <div className="sm:col-span-2">
@@ -162,7 +162,7 @@ export default function TreeRegistrationFormSG() {
                       Why do you want to join this workshop?
                     </label>
                     <div className="mt-2.5">
-                      <input type="text" name="reason" id="reason" autoComplete="organization" value={reason} placeholder="1" onChange={e => setReason(e.target.value)} className="block w-full rounded-md border-2 md:border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
+                      <input type="text" name="reason" id="reason" value={reason} onChange={e => setReason(e.target.value)} className="block w-full rounded-md border-2 md:border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
                     </div>
                   </div>
                   <div className="sm:col-span-2">
@@ -170,7 +170,7 @@ export default function TreeRegistrationFormSG() {
                       Special Need
                     </label>
                     <div className="mt-2.5">
-                      <textarea name="special_need" id="special_need" rows={4} value={special_need} onChange={e => setSpecial_need(e.target.value)} required className="block w-full rounded-md border-2 md:border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" defaultValue={""} />
+                      <textarea name="special_need" id="special_need" rows={4} value={special_need} onChange={e => setSpecial_need(e.target.value)} className="block w-full rounded-md border-2 md:border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" defaultValue={""} />
                     </div>
                   </div>
                   <div className="sm:col-span-2">
@@ -178,7 +178,7 @@ export default function TreeRegistrationFormSG() {
                       Any other comment ?
                     </label>
                     <div className="mt-2.5">
-                      <textarea name="comment" id="comment" rows={4} value={comment} onChange={e => setComment(e.target.value)} required className="block w-full rounded-md border-2 md:border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" defaultValue={""} />
+                      <textarea name="comment" id="comment" rows={4} value={comment} onChange={e => setComment(e.target.value)} className="block w-full rounded-md border-2 md:border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" defaultValue={""} />
                     </div>
                   </div>
 
