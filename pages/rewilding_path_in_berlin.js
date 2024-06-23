@@ -76,7 +76,7 @@ export default function TreePlanting() {
                 </ul>
                 <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
                   <figure className="mt-10 mb-16">
-                    <Image loader={imageLoader} src="public/rewilding_path_in_berlin/main_img_01.png" className="rounded-xl bg-gray-50" alt="Hives Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width={768} height={1024} />
+                    <Image loader={imageLoader} src="/rewilding_path_in_berlin/main_img_01.png" className="rounded-xl bg-gray-50" alt="Rewilding Path In Berlin Main Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width={768} height={1024} />
                   </figure>
                 </div>
               </div>
