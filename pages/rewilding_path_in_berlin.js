@@ -67,7 +67,7 @@ export default function RewildingPathInBerlin() {
                 <p className="mt-6 text-lg leading-8 text-gray-600">This workshop is for those who wish to start and deepen their journey in the field of ecological restoration, earth healing, or rewilding. ​Now in the era of climate disruption, many of us are seeking to change our relationship with nature and to contribute to its recovery.</p>
                 <p className="mt-6 text-lg leading-8 text-gray-600">We encourage you to bring your concerns, questions, passions, visions, dreams, actions. We will be weaving a field of connections between the participants, allowing ourselves to deepen in our rewilding journeys.</p>
                 <p className="mt-6 text-lg leading-8 text-gray-600">We expect this workshop will spark a new fire in your life. The fire of your rewilding journey could be tended by your commitment to the next steps on the path. You may be met by a landscape, a place that you recognise as kin. A rewilding journey is about having a deepening relationship with a place that you know as home.</p>
-                <h2 className="mt-12 text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">Price and Payment</h2>
+                <h3 className="mt-12 text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">Price and Payment</h3>
                 <p className="mt-6 text-lg leading-8 text-gray-600">We offer three tiers of price and payment</p>
                 <ul>
                   <li>【Basic】for those with minimum income : €70</li>
@@ -81,11 +81,15 @@ export default function RewildingPathInBerlin() {
                   ​Sort Code : 16 58 10
                   <br />
                 </p>{" "}
-                <p className="mt-6 text-lg leading-8 text-gray-600"></p>For international payments please use this info:
-                <br /> BIC: NWBKGB2L <br />
-                IBAN: GB98NWBK60000410018573 <br />
-                Thank you.
-                <br />
+                <p className="mt-6 text-lg leading-8 text-gray-600">
+                  international payments please use this info:
+                  <br /> BIC: NWBKGB2L <br />
+                  IBAN: GB98NWBK60000410018573 <br />
+                  Thank you.{" "}
+                </p>
+                <h3 className="mt-12 text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">Become a Patron</h3>
+                <p className="mt-6 text-lg leading-8 text-gray-600">If you would like to support our work, please consider to become a patron of Trees for Hope. You can do so by joining our Patreon Campaign here:</p>
+                <a href="https://www.patreon.com/treesforhope/about">patreon.com/treesforhope</a>
                 <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
                   <figure className="mt-10 mb-16">
                     <Image loader={imageLoader} src="/rewilding_path_in_berlin/main_img_01.png" className="rounded-xl bg-gray-50" alt="Rewilding Path In Berlin Main Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width={768} height={1024} />
