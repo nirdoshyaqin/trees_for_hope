@@ -112,7 +112,7 @@ export default function RewildingBerlinRegistFormSG() {
                   </div>
 
                   <div className="sm:col-span-2">
-                    <label htmlFor="company" className="block text-sm font-semibold leading-6 text-gray-900">
+                    <label htmlFor="phone" className="block text-sm font-semibold leading-6 text-gray-900">
                       Phone Number
                     </label>
                     <div className="mt-2.5">
@@ -120,7 +120,7 @@ export default function RewildingBerlinRegistFormSG() {
                     </div>
                   </div>
                   <div className="sm:col-span-2">
-                    <label htmlFor="dedication_for" className="block text-sm font-semibold leading-6 text-gray-900">
+                    <label htmlFor="date_of_birth" className="block text-sm font-semibold leading-6 text-gray-900">
                       Your date and place of birth
                     </label>
                     <div className="mt-2.5">
@@ -128,7 +128,7 @@ export default function RewildingBerlinRegistFormSG() {
                     </div>
                   </div>
                   <div className="sm:col-span-2">
-                    <label htmlFor="numbers_of_trees" className="block text-sm font-semibold leading-6 text-gray-900">
+                    <label htmlFor="reason" className="block text-sm font-semibold leading-6 text-gray-900">
                       Why do you want to join this workshop?
                     </label>
                     <div className="mt-2.5">
