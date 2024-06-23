@@ -74,6 +74,13 @@ export default function TreePlanting() {
                   <li>【Full】for those who can pay the ticket : €170</li>
                   <li>【Giving】for those who would like to support our Rewilding Projects : €270</li>
                 </ul>
+                <p className="mt-6 text-lg leading-8 text-gray-600">Payment to our bank account in the UK : Trees for Hope, Rewilding the Fertile Crescent</p>{" "}
+                <p className="mt-6 text-lg leading-8 text-gray-600">
+                  Account : 20673701<br>​Sort Code : 16 58 10</br>
+                </p>{" "}
+                <p className="mt-6 text-lg leading-8 text-gray-600"></p>For international payments please use this info:<br> BIC: NWBKGB2L </br>
+                <br>IBAN: GB98NWBK60000410018573 </br>
+                <br>Thank you.</br>
                 <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
                   <figure className="mt-10 mb-16">
                     <Image loader={imageLoader} src="/rewilding_path_in_berlin/main_img_01.png" className="rounded-xl bg-gray-50" alt="Rewilding Path In Berlin Main Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width={768} height={1024} />
