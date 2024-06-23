@@ -53,13 +53,13 @@ export default function TreePlanting() {
             <div className="overflow-hidden">
               <div className="mx-auto max-w-3xl px-6 mt-32 sm:mt-40 lg:px-8">
                 <figure className="mt-10 mb-6 flex justify-center">
-                  <img className="rounded-xl bg-gray-50 object-cover" src="/hives/alchemising_our_soil_soul_society.png" alt="Alchemising our Soil, Soul, Society" />
+                  <img className="rounded-xl bg-gray-50 object-cover" src="/rewilding_path_in_berlin/keyvisual_01.jpg" alt="Alchemising our Soil, Soul, Society" />
                   {/* <figcaption className="mt-4 flex gap-x-2 text-sm leading-6 text-gray-500">
                   <InformationCircleIcon className="mt-0.5 h-5 w-5 flex-none text-gray-300" aria-hidden="true" />
                   Faucibus commodo massa rhoncus, volutpat.
                 </figcaption> */}
                 </figure>
-                <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+                <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl leading-relaxed">
                   Cultivating Your Rewilding Path Workshop
                   <br />
                   20, 21, 22th September ​Berlin
@@ -67,7 +67,7 @@ export default function TreePlanting() {
                 <p className="mt-6 text-lg leading-8 text-gray-600">This workshop is for those who wish to start and deepen their journey in the field of ecological restoration, earth healing, or rewilding. ​Now in the era of climate disruption, many of us are seeking to change our relationship with nature and to contribute to its recovery.</p>
                 <p className="mt-6 text-lg leading-8 text-gray-600">We encourage you to bring your concerns, questions, passions, visions, dreams, actions. We will be weaving a field of connections between the participants, allowing ourselves to deepen in our rewilding journeys.</p>
                 <p className="mt-6 text-lg leading-8 text-gray-600">We expect this workshop will spark a new fire in your life. The fire of your rewilding journey could be tended by your commitment to the next steps on the path. You may be met by a landscape, a place that you recognise as kin. A rewilding journey is about having a deepening relationship with a place that you know as home.</p>
-                <h2 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">Price and Payment</h2>
+                <h2 className="mt-12 text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">Price and Payment</h2>
                 <p className="mt-6 text-lg leading-8 text-gray-600">We offer three tiers of price and payment</p>
                 <ul>
                   <li>【Basic】for those with minimum income : €70</li>
@@ -76,10 +76,7 @@ export default function TreePlanting() {
                 </ul>
                 <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
                   <figure className="mt-10 mb-16">
-                    <Image loader={imageLoader} src="/hives/hives_01.png" className="rounded-xl bg-gray-50" alt="Hives Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width={768} height={1024} />
-                  </figure>
-                  <figure className="mt-10 mb-16">
-                    <Image loader={imageLoader} src="/hives/hives_02.png" className="rounded-xl bg-gray-50" alt="Hives Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width={768} height={1024} />
+                    <Image loader={imageLoader} src="public/rewilding_path_in_berlin/main_img_01.png" className="rounded-xl bg-gray-50" alt="Hives Image" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" width={768} height={1024} />
                   </figure>
                 </div>
               </div>
