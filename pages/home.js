@@ -130,8 +130,6 @@ export default function Home() {
 
           {/* Vision section */}
           <Vision />
-          {/* Logo cloud */}
-          {/* <LogoCloud /> */}
           {/* Team section */}
           <Team />
           {/* Blog section */}
