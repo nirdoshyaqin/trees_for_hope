@@ -9,7 +9,7 @@ import { CMS_NAME } from "../lib/constants";
 import Timeline from "@/components/Timeline";
 import Mission from "@/components/Mission";
 import Vision from "@/components/Vision";
-import LogoCloud from "@/components/LogoCloud";
+// import LogoCloud from "@/components/LogoCloud";
 import Team from "@/components/Team";
 import HeroPost from "@/components/hero-post";
 
@@ -46,7 +46,7 @@ export default function Index({ preview, allPosts }) {
             {/* Mission section */}
             <Mission />
             {/* Logo cloud */}
-            <LogoCloud />
+            {/* <LogoCloud /> */}
             {/* Team section */}
             <Team />
             {heroPost && <HeroPost title={heroPost.title} coverImage={heroPost.coverImage} date={heroPost.date} author={heroPost.author} slug={heroPost.slug} excerpt={heroPost.excerpt} />}
