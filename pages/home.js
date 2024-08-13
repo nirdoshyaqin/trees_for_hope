@@ -11,7 +11,6 @@ import Footer from "@/components/footer";
 import Timeline from "@/components/Timeline";
 import Mission from "@/components/Mission";
 import Vision from "@/components/Vision";
-// import LogoCloud from "@/components/LogoCloud";
 import Team from "@/components/Team";
 import Blog from "@/components/Blog";
 
@@ -127,13 +126,12 @@ export default function Home() {
           <div className="mt-32 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8">
             <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2832&q=80" alt="" className="aspect-[5/2] w-full object-cover xl:rounded-3xl" />
           </div>
-
           {/* Vision section */}
           <Vision />
           {/* Team section */}
           <Team />
           {/* Blog section */}
-          {/* <Blog /> */}
+          <Blog />
         </main>
 
         {/* Footer */}
