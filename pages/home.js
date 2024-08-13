@@ -133,7 +133,7 @@ export default function Home() {
           {/* Team section */}
           <Team />
           {/* Blog section */}
-          <Blog />
+          {/* <Blog /> */}
         </main>
 
         {/* Footer */}
