@@ -134,7 +134,6 @@ export default function Home() {
           {/* Blog section */}
           <Blog />
         </main>
-
         {/* Footer */}
         <Footer />
       </div>
