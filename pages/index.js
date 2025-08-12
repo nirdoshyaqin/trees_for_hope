@@ -35,7 +35,7 @@ export default function Index({ preview, allPosts }) {
           <Header />
           
           {/* Website Update Alert Banner - Fixed Position */}
-          <div className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-red-600 to-orange-600 shadow-lg border-b-4 border-red-700">
+          <div className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-indigo-600 to-indigo-700 shadow-lg border-b-4 border-indigo-800">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
               <div className="flex items-center justify-center py-4">
                 <div className="flex items-center text-center">
@@ -46,7 +46,7 @@ export default function Index({ preview, allPosts }) {
                       href="https://treesforhope.net" 
                       target="_blank" 
                       rel="noopener noreferrer" 
-                      className="underline hover:text-yellow-200 transition-colors duration-200 font-bold"
+                      className="underline hover:text-indigo-200 transition-colors duration-200 font-bold"
                     >
                       treesforhope.net
                     </a>{" "}
