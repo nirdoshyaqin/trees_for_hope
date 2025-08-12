@@ -12,6 +12,7 @@ import Vision from "@/components/Vision";
 // import LogoCloud from "@/components/LogoCloud";
 import Team from "@/components/Team";
 import HeroPost from "@/components/hero-post";
+import { ExclamationTriangleIcon } from "@heroicons/react/24/solid";
 
 const imageLoader = ({ src, width, quality }) => {
   return `${src}?w=${width}&q=${quality || 75}`;
@@ -32,6 +33,25 @@ export default function Index({ preview, allPosts }) {
         </Head>
         <div className="bg-white">
           <Header />
+          
+          {/* Website Update Alert Banner */}
+          <div className="bg-gradient-to-r from-orange-500 to-red-500">
+            <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+              <div className="flex items-center justify-between py-3">
+                <div className="flex items-center">
+                  <ExclamationTriangleIcon className="h-5 w-5 text-white mr-2" />
+                  <p className="text-white font-medium">
+                    Please go to our current website{" "}
+                    <a href="https://treesforhope.net" target="_blank" rel="noopener noreferrer" className="underline hover:text-orange-100 transition-colors duration-200">
+                      treesforhope.net
+                    </a>{" "}
+                    for updated information.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <main className="isolate">
             {/* Hero section */}
             <Hero />
