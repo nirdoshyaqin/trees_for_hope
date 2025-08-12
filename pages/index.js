@@ -34,15 +34,20 @@ export default function Index({ preview, allPosts }) {
         <div className="bg-white">
           <Header />
           
-          {/* Website Update Alert Banner */}
-          <div className="bg-gradient-to-r from-orange-500 to-red-500">
+          {/* Website Update Alert Banner - Fixed Position */}
+          <div className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-red-600 to-orange-600 shadow-lg border-b-4 border-red-700">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-              <div className="flex items-center justify-between py-3">
-                <div className="flex items-center">
-                  <ExclamationTriangleIcon className="h-5 w-5 text-white mr-2" />
-                  <p className="text-white font-medium">
+              <div className="flex items-center justify-center py-4">
+                <div className="flex items-center text-center">
+                  <ExclamationTriangleIcon className="h-6 w-6 text-white mr-3 flex-shrink-0" />
+                  <p className="text-white font-semibold text-lg">
                     Please go to our current website{" "}
-                    <a href="https://treesforhope.net" target="_blank" rel="noopener noreferrer" className="underline hover:text-orange-100 transition-colors duration-200">
+                    <a 
+                      href="https://treesforhope.net" 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="underline hover:text-yellow-200 transition-colors duration-200 font-bold"
+                    >
                       treesforhope.net
                     </a>{" "}
                     for updated information.
@@ -51,6 +56,9 @@ export default function Index({ preview, allPosts }) {
               </div>
             </div>
           </div>
+
+          {/* Spacer to prevent content from being hidden behind fixed banner */}
+          <div className="h-20"></div>
 
           <main className="isolate">
             {/* Hero section */}
