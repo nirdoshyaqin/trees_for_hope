@@ -5,6 +5,7 @@ import styles from "@/styles/Home.module.css";
 import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { ExclamationTriangleIcon } from "@heroicons/react/24/solid";
 
 import Header from "@/components/header";
 import Footer from "@/components/footer";
@@ -53,6 +54,25 @@ export default function Home() {
       <div className="bg-white">
         {/* Header */}
         <Header />
+
+        {/* Website Update Alert Banner */}
+        <div className="bg-gradient-to-r from-orange-500 to-red-500">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div className="flex items-center justify-between py-3">
+              <div className="flex items-center">
+                <ExclamationTriangleIcon className="h-5 w-5 text-white mr-2" />
+                <p className="text-white font-medium">
+                  Please go to our current website{" "}
+                  <a href="https://treesforhope.net" target="_blank" rel="noopener noreferrer" className="underline hover:text-orange-100 transition-colors duration-200">
+                    treesforhope.net
+                  </a>{" "}
+                  for updated information.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <main className="isolate">
           {/* Hero section */}
           <div className="relative isolate -z-10">
