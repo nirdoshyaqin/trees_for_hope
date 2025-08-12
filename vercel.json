@@ -1,6 +1,6 @@
 {
   "functions": {
-    "app/**/*.js": {
+    "pages/**/*.js": {
       "runtime": "nodejs22.x"
     }
   },
